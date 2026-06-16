@@ -559,14 +559,13 @@
       .hero { padding: 80px 16px 40px; }
       section { padding: 60px 16px; }
 
-      #trust { padding: 14px 10px; }
+      #trust { padding: 12px 10px; }
       .trust-grid { gap: 0; flex-wrap: nowrap; justify-content: space-between; }
-      .trust-item { flex-direction: column; gap: 0; text-align: center; flex: 1; min-width: 0; padding: 0 4px; position: relative; }
-      .trust-item + .trust-item::before { content: ''; position: absolute; left: 0; top: 15%; height: 70%; width: 1px; background: rgba(200,162,78,0.2); }
-      .trust-icon { width: 24px; height: 24px; border: none; background: none; margin: 0 auto 2px; }
-      .trust-icon svg { width: 14px; height: 14px; opacity: 0.7; }
-      .trust-text { font-size: 0.6rem; line-height: 1.25; }
-      .trust-text strong { font-size: 0.68rem; font-weight: 600; white-space: nowrap; margin-bottom: 1px; }
+      .trust-item { flex-direction: column; gap: 0; text-align: center; flex: 1; min-width: 0; padding: 0 6px; position: relative; }
+      .trust-item + .trust-item::before { content: ''; position: absolute; left: 0; top: 20%; height: 60%; width: 1px; background: rgba(200,162,78,0.15); }
+      .trust-icon { display: none; }
+      .trust-text { font-size: 0.58rem; line-height: 1.2; color: rgba(255,255,255,0.45); }
+      .trust-text strong { font-size: 0.72rem; font-weight: 600; color: var(--accent); white-space: nowrap; margin-bottom: 1px; }
     }
   </style>
 </head>
