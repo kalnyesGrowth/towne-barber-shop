@@ -110,12 +110,11 @@
       position: fixed; top: 0; left: 0; right: 0; z-index: 100;
       padding: 18px 40px;
       display: flex; align-items: center; justify-content: space-between;
-      background: rgba(17,17,22,0.82);
-      backdrop-filter: none;
+      background: transparent;
       border-bottom: none;
-      transition: padding 0.3s;
+      transition: padding 0.3s, background 0.3s;
     }
-    nav.scrolled { padding: 12px 40px; }
+    nav.scrolled { padding: 12px 40px; background: rgba(17,17,22,0.95); }
     .nav-logo {
       font-family: var(--font-heading);
       font-size: 1.15rem; font-weight: 600;
