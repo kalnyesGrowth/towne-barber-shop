@@ -1,1195 +1,830 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Towne Barber Shop | Stafford, VA. Classic Haircuts, Hot Towel Shaves &amp; Military Cuts</title>
-  <meta name="description" content="Stafford VA's trusted barber shop at 475 Town Ctr Blvd #111. Classic haircuts, hot towel shaves, military cuts, kids cuts &amp; beard trims. 4.4 stars, 112+ reviews. Walk-ins welcome. Call (540) 657-4621.">
-  <meta name="keywords" content="barber shop Stafford VA, haircut Stafford, military haircut Quantico, hot towel shave Stafford, kids haircut Stafford VA, beard trim Stafford, barber near Quantico, Towne Center Aquia barber">
-  <link rel="canonical" href="https://kalnyesgrowth.github.io/towne-barber-shop/">
-  <meta property="og:title" content="Towne Barber Shop | Stafford VA's Classic Barber Since Day One">
-  <meta property="og:description" content="Classic haircuts, hot towel shaves, military cuts &amp; more at 475 Town Ctr Blvd, Stafford VA. 4.4 stars, 112+ reviews. Walk-ins welcome.">
-  <meta property="og:type" content="website">
-  <meta property="og:locale" content="en_US">
-  <meta property="og:image" content="https://images.pexels.com/photos/1813272/pexels-photo-1813272.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&dpr=1">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta property="og:url" content="https://kalnyesgrowth.github.io/towne-barber-shop/">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Towne Barber Shop | Stafford VA's Classic Barber">
-  <meta name="twitter:description" content="Classic haircuts, hot towel shaves, military cuts at 475 Town Ctr Blvd, Stafford VA. 4.4 stars, 112+ reviews.">
-  <meta name="twitter:image" content="https://images.pexels.com/photos/1813272/pexels-photo-1813272.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&dpr=1">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Towne Barber Shop | Stafford, VA. Classic Haircuts, Hot Towel Shaves &amp; Military Cuts</title>
+<meta name="description" content="Stafford VA's trusted barber shop at 475 Town Ctr Blvd #111. Classic haircuts, hot towel shaves, military cuts, kids cuts &amp; beard trims. 4.4 stars, 112+ reviews. Walk-ins welcome. Call (540) 657-4621.">
+<meta name="keywords" content="barber shop Stafford VA, haircut Stafford, military haircut Quantico, hot towel shave Stafford, kids haircut Stafford VA, beard trim Stafford, barber near Quantico, Towne Center Aquia barber">
+<link rel="canonical" href="https://kalnyesgrowth.github.io/towne-barber-shop/">
+<meta property="og:title" content="Towne Barber Shop | Stafford VA's Classic Barber Since Day One">
+<meta property="og:description" content="Classic haircuts, hot towel shaves, military cuts &amp; more at 475 Town Ctr Blvd, Stafford VA. 4.4 stars, 112+ reviews. Walk-ins welcome.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://images.pexels.com/photos/1813272/pexels-photo-1813272.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&dpr=1">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://kalnyesgrowth.github.io/towne-barber-shop/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Towne Barber Shop | Stafford VA's Classic Barber">
+<meta name="twitter:description" content="Classic haircuts, hot towel shaves, military cuts at 475 Town Ctr Blvd, Stafford VA. 4.4 stars, 112+ reviews.">
+<meta name="twitter:image" content="https://images.pexels.com/photos/1813272/pexels-photo-1813272.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&dpr=1">
+<link rel="preconnect" href="https://api.fontshare.com">
+<link href="https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600,700&f[]=satoshi@400,500,700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html,body{overflow-x:hidden;max-width:100vw}
+:root{
+--font-heading:'Clash Display',sans-serif;
+--font-body:'Satoshi',sans-serif;
+--accent:#c8a24e;
+--accent-dk:#a07e35;
+--white:#FFFFFF;
+--white-90:rgba(255,255,255,.9);
+--white-70:rgba(255,255,255,.7);
+--white-50:rgba(255,255,255,.5);
+--white-30:rgba(255,255,255,.3);
+--white-10:rgba(255,255,255,.1);
+--bg:#0A0A0F;
+--bg-2:#101018;
+--bg-3:#161622;
+--bg-card:rgba(22,22,34,.9);
+--accent-dim:rgba(200,162,78,.15);
+--text-xs:.75rem;
+--text-sm:.875rem;
+--text-base:1rem;
+--text-lg:1.2rem;
+--text-xl:1.44rem;
+--text-2xl:1.728rem;
+--text-3xl:2.074rem;
+--text-4xl:2.488rem;
+--text-5xl:2.986rem;
+}
+body{font-family:var(--font-body);font-size:var(--text-base);line-height:1.7;color:var(--white-90);background:var(--bg)}
+h1,h2,h3,h4{font-family:var(--font-heading);line-height:1.1;font-weight:700}
+h1{font-size:clamp(2.2rem,5vw,var(--text-5xl))}
+h2{font-size:clamp(1.6rem,4vw,var(--text-4xl))}
+h3{font-size:clamp(1.2rem,3vw,var(--text-3xl))}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+/* NAV */
+nav{position:fixed;top:0;left:0;width:100%;z-index:100;padding:18px 5%;display:flex;align-items:center;justify-content:space-between;background:transparent;transition:background .4s}
+nav.scrolled{background:rgba(10,10,15,.95)}
+.nav-logo{font-family:var(--font-heading);font-size:var(--text-xl);font-weight:700;letter-spacing:.02em;color:var(--white);display:flex;align-items:center;gap:10px}
+.nav-logo span{color:var(--accent)}
+.nav-links{display:flex;gap:28px;list-style:none}
+.nav-links a{font-size:var(--text-sm);font-weight:500;color:var(--white-70);transition:color .3s;letter-spacing:.02em}
+.nav-links a:hover{color:var(--accent)}
+.nav-cta{background:transparent;border:1.5px solid var(--accent);color:var(--white);padding:10px 24px;border-radius:4px;font-family:var(--font-body);font-size:var(--text-sm);font-weight:600;cursor:pointer;transition:all .3s;letter-spacing:.04em;text-transform:uppercase}
+.nav-cta:hover{background:var(--accent);color:var(--bg)}
+.nav-toggle{display:none;background:none;border:none;cursor:pointer;padding:4px}
+.nav-toggle span{display:block;width:24px;height:2px;background:var(--white);margin:5px 0;transition:all .3s}
 
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": ["BarberShop", "LocalBusiness"],
-    "name": "Towne Barber Shop",
-    "telephone": "(540) 657-4621",
-    "url": "https://kalnyesgrowth.github.io/towne-barber-shop/",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "475 Town Ctr Blvd #111",
-      "addressLocality": "Stafford",
-      "addressRegion": "VA",
-      "postalCode": "22554",
-      "addressCountry": "US"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 38.4623262,
-      "longitude": -77.4028048
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.4",
-      "reviewCount": "112"
-    },
-    "openingHoursSpecification": [
-      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Monday", "opens": "08:00", "closes": "19:00" },
-      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Tuesday", "opens": "08:00", "closes": "19:00" },
-      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Wednesday", "opens": "09:00", "closes": "19:00" },
-      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Thursday", "opens": "09:00", "closes": "19:00" },
-      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Friday", "opens": "09:00", "closes": "19:00" },
-      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "08:00", "closes": "18:00" },
-      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "09:00", "closes": "19:00" }
-    ],
-    "priceRange": "$",
-    "sameAs": []
-  }
-  </script>
+/* HERO */
+.hero{position:relative;min-height:100vh;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.hero-video-wrap{position:absolute;inset:0;z-index:0;background:url('poster.jpg') center/cover no-repeat}
+.hero-video-wrap canvas{width:100%;height:100%;object-fit:cover}
+.hero-overlay{position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,10,15,.6) 0%,rgba(10,10,15,.8) 100%);z-index:1}
+.hero-content{position:relative;z-index:2;text-align:center;padding:0 5%;max-width:800px}
+.hero-badge{display:inline-block;background:var(--accent-dim);padding:8px 20px;border-radius:30px;font-size:var(--text-xs);font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:24px}
+.hero h1{margin-bottom:16px;letter-spacing:.02em}
+.hero-desc{font-size:var(--text-lg);color:var(--white-70);margin-bottom:36px;max-width:600px;margin-left:auto;margin-right:auto}
+.hero-cta{display:inline-block;background:transparent;border:1.5px solid var(--white-50);color:var(--white);padding:16px 40px;border-radius:4px;font-family:var(--font-body);font-size:var(--text-sm);font-weight:600;letter-spacing:.08em;text-transform:uppercase;cursor:pointer;transition:all .3s}
+.hero-cta:hover{background:var(--accent);border-color:var(--accent);color:var(--bg)}
+.hero-scroll{position:absolute;bottom:40px;left:50%;transform:translateX(-50%);z-index:3;display:flex;flex-direction:column;align-items:center;gap:8px;color:var(--white-30);font-size:var(--text-xs);letter-spacing:.1em;text-transform:uppercase;animation:scrollBounce 2s infinite}
+@keyframes scrollBounce{0%,100%{transform:translateX(-50%) translateY(0)}50%{transform:translateX(-50%) translateY(8px)}}
+.hero-scroll svg{width:20px;height:20px;stroke:var(--white-30);fill:none;stroke-width:2}
 
-  <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html, body { overflow-x: hidden; scroll-behavior: smooth; }
+/* BARBER POLE */
+.barber-pole{display:inline-block;position:relative;vertical-align:middle}
+.barber-pole-cylinder{border-radius:50px;overflow:hidden;position:relative;background:#E8E8E8}
+.barber-pole-stripes{position:absolute;inset:0;background:repeating-linear-gradient(-45deg,#C41E3A 0px,#C41E3A 6px,#FFFFFF 6px,#FFFFFF 12px,#1E3A8A 12px,#1E3A8A 18px,#FFFFFF 18px,#FFFFFF 24px);background-size:100% 34px;animation:poleStripes 1.2s linear infinite}
+@keyframes poleStripes{0%{background-position:0 0}100%{background-position:0 34px}}
+.barber-pole-cap{position:absolute;left:-1px;right:-1px;height:6px;background:linear-gradient(180deg,#D4AF37,#B8860B);border-radius:50px;z-index:2}
+.barber-pole-cap-top{top:-1px}
+.barber-pole-cap-bottom{bottom:-1px}
+.barber-pole-shine{position:absolute;left:20%;top:10%;width:30%;height:80%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.3),transparent);border-radius:50%;z-index:3;pointer-events:none}
+.nav-pole{width:12px;height:32px}
+.nav-pole .barber-pole-cylinder{width:12px;height:32px}
+.nav-pole .barber-pole-cap{height:3px}
+.nav-pole .barber-pole-stripes{background:repeating-linear-gradient(-45deg,#C41E3A 0px,#C41E3A 3px,#FFF 3px,#FFF 6px,#1E3A8A 6px,#1E3A8A 9px,#FFF 9px,#FFF 12px);background-size:100% 17px;animation:poleThin 1s linear infinite}
+@keyframes poleThin{0%{background-position:0 0}100%{background-position:0 17px}}
+.hero-poles-row{display:flex;align-items:center;justify-content:center;gap:28px;margin-bottom:20px}
+.hero-pole-wrap{position:relative;flex-shrink:0}
+.hero-pole{width:36px;height:150px}
+.hero-pole .barber-pole-cylinder{width:36px;height:150px}
+.hero-pole .barber-pole-cap{height:7px}
+.hero-pole-glow{filter:drop-shadow(0 0 12px rgba(200,162,78,.3)) drop-shadow(0 0 24px rgba(200,162,78,.15));animation:poleGlow 3s ease-in-out infinite alternate}
+@keyframes poleGlow{0%{filter:drop-shadow(0 0 12px rgba(200,162,78,.3)) drop-shadow(0 0 24px rgba(200,162,78,.15))}100%{filter:drop-shadow(0 0 20px rgba(200,162,78,.5)) drop-shadow(0 0 32px rgba(200,162,78,.3))}}
 
-    :root {
-      --accent:    #c8a24e;
-      --accent-lt: #e2ca7e;
-      --accent-dk: #a07e35;
-      --red:       #b83232;
-      --red-lt:    #d04040;
-      --dark:      #111116;
-      --dark2:     #16161c;
-      --dark3:     #1c1c24;
-      --dark4:     #131318;
-      --card:      rgba(255,255,255,0.04);
-      --card-border: rgba(200,162,78,0.15);
-      --text:      #f0ece4;
-      --muted:     rgba(240,236,228,0.6);
-      --white:     #ffffff;
-      --font-heading: 'Playfair Display', 'Georgia', serif;
-      --font-body:    'Inter', 'Arial', sans-serif;
-      --text-xs:   0.694rem;
-      --text-sm:   0.833rem;
-      --text-base: 1rem;
-      --text-lg:   1.200rem;
-      --text-xl:   1.440rem;
-      --text-2xl:  1.728rem;
-      --text-3xl:  2.074rem;
-      --text-4xl:  2.488rem;
-      --text-5xl:  2.986rem;
-    }
+/* SECTIONS */
+.section{padding:100px 5%}
+.section-label{font-family:var(--font-body);font-size:var(--text-xs);font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin-bottom:12px}
+.section-title{margin-bottom:20px}
+.section-desc{color:var(--white-50);max-width:600px;font-size:var(--text-base);line-height:1.8}
+.section-center{text-align:center}
+.section-center .section-desc{margin-left:auto;margin-right:auto}
+.bg-section{position:relative;background-size:cover;background-position:center;background-repeat:no-repeat}
+.bg-section::before{content:'';position:absolute;inset:0;background:rgba(10,10,15,.88)}
+.bg-section>*{position:relative;z-index:1}
 
-    body {
-      font-family: var(--font-body);
-      background: var(--dark);
-      color: var(--text);
-      line-height: 1.7;
-      font-size: var(--text-base);
-    }
+/* ABOUT */
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;margin-top:48px}
+.about-img{border-radius:8px;overflow:hidden;aspect-ratio:4/3}
+.about-img img{width:100%;height:100%;object-fit:cover}
+.about-text p{color:var(--white-50);margin-bottom:20px;line-height:1.8}
+.about-text p strong{color:var(--white-90)}
 
-    h1, h2, h3, h4 { font-family: var(--font-heading); }
+/* SERVICES */
+.services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:48px}
+.service-card{background:var(--bg-card);border-radius:6px;overflow:hidden;transition:transform .4s,box-shadow .4s;border:1px solid var(--white-10)}
+.service-card:hover{transform:translateY(-6px);box-shadow:0 20px 60px rgba(0,0,0,.4);border-color:rgba(200,162,78,.15)}
+.service-card-img{height:220px;overflow:hidden}
+.service-card-img img{width:100%;height:100%;object-fit:cover;transition:transform .6s}
+.service-card:hover .service-card-img img{transform:scale(1.08)}
+.service-card-body{padding:24px}
+.service-card-name{font-family:var(--font-heading);font-size:var(--text-xl);font-weight:600;margin-bottom:8px}
+.service-card-desc{font-size:var(--text-sm);color:var(--white-50);line-height:1.6;margin-bottom:12px}
+.service-card-price{font-size:var(--text-sm);color:var(--accent);font-weight:600}
 
-    /* NAV */
-    nav {
-      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
-      padding: 18px 40px;
-      display: flex; align-items: center; justify-content: space-between;
-      background: transparent;
-      border-bottom: none;
-      transition: padding 0.3s, background 0.3s;
-    }
-    nav.scrolled { padding: 12px 40px; background: rgba(17,17,22,0.95); }
-    .nav-logo {
-      font-family: var(--font-heading);
-      font-size: 1.15rem; font-weight: 600;
-      letter-spacing: 0.04em; color: var(--accent);
-      text-decoration: none; line-height: 1.2;
-    }
-    .nav-logo span { display: block; font-family: var(--font-body); font-size: 0.6rem; font-weight: 400; color: var(--muted); letter-spacing: 0.18em; text-transform: uppercase; }
-    .nav-links { display: flex; align-items: center; gap: 28px; list-style: none; }
-    .nav-links a { color: var(--muted); text-decoration: none; font-size: var(--text-sm); font-family: var(--font-body); letter-spacing: 0.04em; transition: color 0.2s; }
-    .nav-links a:hover { color: var(--accent); }
-    .nav-cta {
-      background: var(--red); color: var(--white) !important;
-      padding: 9px 22px; border-radius: 4px;
-      font-weight: 700 !important; font-size: 0.82rem !important;
-      letter-spacing: 0.08em !important; text-transform: uppercase;
-      transition: background 0.2s !important;
-    }
-    .nav-cta:hover { background: var(--red-lt) !important; }
-    .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; background: none; border: none; padding: 4px; }
-    .hamburger span { display: block; width: 24px; height: 2px; background: var(--accent); border-radius: 2px; transition: all 0.3s; }
-    #mobile-menu { display: none; }
+/* BARBERS */
+.barbers-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:48px}
+.barber-card{background:var(--bg-card);border:1px solid var(--white-10);border-radius:6px;overflow:hidden;text-align:center;transition:transform .4s,box-shadow .4s}
+.barber-card:hover{transform:translateY(-6px);box-shadow:0 20px 60px rgba(0,0,0,.4);border-color:rgba(200,162,78,.15)}
+.barber-card-img{height:340px;overflow:hidden}
+.barber-card-img img{width:100%;height:100%;object-fit:cover;transition:transform .6s}
+.barber-card:hover .barber-card-img img{transform:scale(1.05)}
+.barber-card-body{padding:28px 20px}
+.barber-card-name{font-family:var(--font-heading);font-size:var(--text-xl);font-weight:600;margin-bottom:4px}
+.barber-card-role{font-size:var(--text-xs);font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin-bottom:12px}
+.barber-card-desc{font-size:var(--text-sm);color:var(--white-50);line-height:1.6;margin-bottom:20px}
+.barber-card-cta{display:inline-block;background:transparent;border:1.5px solid var(--accent);color:var(--white);padding:12px 28px;border-radius:4px;font-family:var(--font-body);font-size:var(--text-sm);font-weight:600;letter-spacing:.06em;text-transform:uppercase;transition:all .3s;cursor:pointer}
+.barber-card-cta:hover{background:var(--accent);color:var(--bg)}
 
-    @media (max-width: 768px) {
-      nav { padding: 16px 20px; }
-      .nav-links { display: none; }
-      .hamburger { display: flex; }
-      #mobile-menu {
-        position: fixed; top: 61px; left: 0; right: 0; z-index: 99;
-        background: rgba(17,17,22,0.97); padding: 24px 20px;
-        border-bottom: 1px solid var(--card-border);
-        flex-direction: column; gap: 20px;
-      }
-      #mobile-menu.open { display: flex; }
-      #mobile-menu a { color: var(--text); text-decoration: none; font-size: 1.05rem; font-family: var(--font-body); padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,0.07); }
-      #mobile-menu .nav-cta { border: none; text-align: center; display: block; padding: 14px; border-radius: 4px; color: var(--white) !important; }
-    }
+/* PROCESS / TIMELINE */
+.process{background-image:url('https://images.pexels.com/photos/2076930/pexels-photo-2076930.jpeg?auto=compress&cs=tinysrgb&w=1260')}
+.timeline{position:relative;max-width:700px;margin:60px auto 0}
+.timeline-line{position:absolute;left:24px;top:0;width:6px;height:100%;background:var(--white-10);border-radius:3px;overflow:hidden}
+.timeline-progress{position:absolute;left:24px;top:0;width:6px;height:0;border-radius:3px;transition:height .1s linear;background:repeating-linear-gradient(-45deg,#C41E3A 0px,#C41E3A 6px,#FFFFFF 6px,#FFFFFF 12px,#1E3A8A 12px,#1E3A8A 18px,#FFFFFF 18px,#FFFFFF 24px);background-size:100% 34px}
+.timeline-scissors{position:absolute;left:27px;width:90px;height:90px;transform:translate(-50%,-10px);z-index:10;transition:top .1s linear;filter:drop-shadow(0 4px 16px rgba(200,162,78,.5))}
+.timeline-step{position:relative;padding-left:80px;padding-bottom:48px;opacity:.3;transform:translateX(-10px);transition:all .6s cubic-bezier(.25,.46,.45,.94)}
+.timeline-step.active{opacity:1;transform:translateX(0)}
+.timeline-dot{position:absolute;left:4px;top:0;width:46px;height:46px;display:flex;align-items:center;justify-content:center;transition:all .4s}
+.timeline-dot svg{width:44px;height:44px;opacity:.3;transition:opacity .4s}
+.timeline-step.active .timeline-dot svg{opacity:1;filter:drop-shadow(0 0 10px rgba(200,162,78,.3))}
+.timeline-num{font-family:var(--font-heading);font-size:var(--text-xs);font-weight:700;color:var(--accent);letter-spacing:.1em;text-transform:uppercase;margin-bottom:8px}
+.timeline-title{font-family:var(--font-heading);font-size:var(--text-xl);font-weight:600;margin-bottom:8px}
+.timeline-desc{font-size:var(--text-sm);color:var(--white-50);line-height:1.6}
 
-    /* HERO */
-    .hero {
-      position: relative; min-height: 100vh;
-      display: flex; align-items: center; justify-content: center;
-      text-align: center; overflow: hidden; padding: 100px 20px 60px;
-    }
-    .hero-video-wrap { position: absolute; inset: 0; z-index: 0; background: url('poster.jpg') center/cover no-repeat; }
-    .hero-video-wrap canvas { width: 100%; height: 100%; object-fit: cover; }
-    .hero-video-wrap::after {
-      content: ''; position: absolute; inset: 0;
-      background: linear-gradient(180deg, rgba(17,17,22,0.6) 0%, rgba(17,17,22,0.8) 100%);
-    }
-    .hero-content { position: relative; z-index: 1; max-width: 760px; }
-    .hero-badge {
-      display: inline-flex; align-items: center; gap: 8px;
-      background: rgba(200,162,78,0.12); border: none; border-radius: 20px;
-      padding: 6px 18px; font-family: var(--font-body);
-      font-size: var(--text-xs); letter-spacing: 0.14em;
-      text-transform: uppercase; color: var(--accent); margin-bottom: 24px;
-    }
-    .hero-badge::before { content: ''; width: 6px; height: 6px; border-radius: 50%; background: var(--accent); display: block; }
-    .hero h1 {
-      font-size: clamp(2.4rem, 5.5vw, var(--text-5xl));
-      font-weight: 700; line-height: 1.1; color: var(--white);
-      margin-bottom: 20px; letter-spacing: -0.01em;
-    }
-    .hero h1 em { color: var(--accent); font-style: italic; }
-    .hero-sub {
-      font-size: clamp(1rem, 2vw, var(--text-lg));
-      color: var(--muted); margin-bottom: 36px;
-      font-family: var(--font-body); font-weight: 300; letter-spacing: 0.02em;
-    }
-    .hero-btns { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
-    .btn-primary {
-      background: var(--red); color: var(--white);
-      padding: 14px 32px; border-radius: 4px; text-decoration: none;
-      font-family: var(--font-body); font-weight: 700; font-size: var(--text-sm);
-      letter-spacing: 0.08em; text-transform: uppercase;
-      transition: background 0.2s, transform 0.2s;
-      display: inline-block; border: none; cursor: pointer;
-    }
-    .btn-primary:hover { background: var(--red-lt); transform: translateY(-1px); }
-    .btn-ghost {
-      border: 1px solid rgba(200,162,78,0.5); color: var(--accent);
-      padding: 14px 32px; border-radius: 4px; text-decoration: none;
-      font-family: var(--font-body); font-weight: 600; font-size: var(--text-sm);
-      letter-spacing: 0.08em; text-transform: uppercase;
-      transition: all 0.2s; display: inline-block;
-      background: transparent; cursor: pointer;
-    }
-    .btn-ghost:hover { background: rgba(200,162,78,0.1); border-color: var(--accent); }
+/* REELS CAROUSEL */
+.reels-section{background:var(--bg-2)}
+.reels-carousel{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;padding:48px 0 20px;scrollbar-width:none}
+.reels-carousel::-webkit-scrollbar{display:none}
+.reel-card{flex:0 0 280px;scroll-snap-align:start;border-radius:12px;overflow:hidden;position:relative;aspect-ratio:9/16;background:#000}
+.reel-card video{width:100%;height:100%;object-fit:cover}
+.reel-card-overlay{position:absolute;bottom:0;left:0;right:0;padding:20px;background:linear-gradient(transparent,rgba(0,0,0,.7));display:flex;align-items:flex-end;gap:12px}
+.reel-card-handle{font-size:var(--text-sm);font-weight:600}
+.reels-nav{display:flex;justify-content:center;gap:12px;margin-top:24px}
+.reels-nav button{width:40px;height:40px;border-radius:50%;border:1px solid var(--white-30);background:transparent;color:var(--white);cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .3s}
+.reels-nav button:hover{border-color:var(--accent);background:var(--accent-dim)}
 
-    /* MARQUEE */
-    .marquee-wrap {
-      background: rgba(200,162,78,0.08);
-      border-top: 1px solid var(--card-border);
-      border-bottom: 1px solid var(--card-border);
-      overflow: hidden; padding: 14px 0;
-    }
-    .marquee-track {
-      display: flex; gap: 0;
-      animation: marquee 28s linear infinite; width: max-content;
-    }
-    .marquee-track:hover { animation-play-state: paused; }
-    .marquee-item {
-      display: flex; align-items: center; gap: 10px; padding: 0 28px;
-      font-family: var(--font-body); font-size: var(--text-xs);
-      font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase;
-      color: var(--accent); white-space: nowrap;
-    }
-    .marquee-dot { width: 4px; height: 4px; border-radius: 50%; background: var(--accent); opacity: 0.5; }
-    @keyframes marquee { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
+/* REVIEWS */
+.reviews-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:48px}
+.review-card{background:var(--bg-card);backdrop-filter:blur(10px);border:1px solid var(--white-10);border-radius:6px;padding:32px;text-align:left}
+.review-card-stars{color:var(--accent);margin-bottom:16px;font-size:var(--text-sm);letter-spacing:2px}
+.review-card-text{font-style:italic;color:var(--white-50);font-size:var(--text-base);line-height:1.7;margin-bottom:20px}
+.review-card-author{display:flex;align-items:center;gap:12px}
+.review-card-avatar{width:40px;height:40px;border-radius:50%;object-fit:cover}
+.review-card-name{font-weight:600;font-size:var(--text-sm)}
+.review-card-source{font-size:var(--text-xs);color:var(--white-30)}
 
-    /* TRUST */
-    #trust { background: var(--dark2); padding: 48px 20px; }
-    .trust-grid { display: flex; justify-content: center; align-items: center; gap: 48px; flex-wrap: wrap; }
-    .trust-item { display: flex; align-items: center; gap: 14px; }
-    .trust-icon {
-      width: 44px; height: 44px;
-      background: rgba(200,162,78,0.1); border: 1px solid rgba(200,162,78,0.25);
-      border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;
-    }
-    .trust-icon svg { width: 20px; height: 20px; fill: none; stroke: var(--accent); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
-    .trust-text { font-family: var(--font-body); font-size: var(--text-sm); color: var(--muted); font-weight: 500; }
-    .trust-text strong { color: var(--white); display: block; font-size: var(--text-base); }
+/* REVIEW CTA */
+.review-cta-section{background:linear-gradient(135deg,var(--accent) 0%,var(--accent-dk) 100%);text-align:center;padding:60px 5%}
+.review-cta-section h2{color:var(--bg);margin-bottom:12px}
+.review-cta-section p{color:rgba(10,10,15,.7);margin-bottom:28px;max-width:500px;margin-left:auto;margin-right:auto}
+.review-cta-btn{display:inline-flex;align-items:center;gap:10px;background:var(--bg);color:var(--accent);padding:16px 36px;border-radius:4px;font-weight:700;font-size:var(--text-sm);text-transform:uppercase;letter-spacing:.06em;transition:transform .3s}
+.review-cta-btn:hover{transform:translateY(-2px)}
+.review-cta-btn svg{width:20px;height:20px}
 
+/* HOURS & LOCATION */
+.location-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;margin-top:48px}
+.hours-list{list-style:none;margin-top:24px}
+.hours-list li{display:flex;justify-content:space-between;padding:14px 0;border-bottom:1px solid var(--white-10);font-size:var(--text-sm)}
+.hours-list .day{color:var(--white-70)}
+.hours-list .time{font-weight:600;color:var(--white-90)}
+.map-wrap{border-radius:8px;overflow:hidden;height:100%;min-height:400px}
+.map-wrap iframe{width:100%;height:100%;border:0}
+.contact-info{margin-top:32px;display:flex;flex-direction:column;gap:16px}
+.contact-item{display:flex;align-items:center;gap:12px;color:var(--white-50);font-size:var(--text-sm)}
+.contact-item svg{width:18px;height:18px;color:var(--accent);flex-shrink:0}
 
-    /* SECTIONS SHARED */
-    section { padding: 90px 20px; }
-    .container { max-width: 1100px; margin: 0 auto; position: relative; z-index: 1; }
-    .section-tag {
-      font-family: var(--font-body); font-size: var(--text-xs); font-weight: 600;
-      letter-spacing: 0.22em; text-transform: uppercase; color: var(--accent); margin-bottom: 12px;
-    }
-    .section-title {
-      font-family: var(--font-heading); font-size: clamp(1.8rem, 3.5vw, var(--text-4xl));
-      color: var(--white); line-height: 1.15; margin-bottom: 16px; font-weight: 700;
-    }
-    .section-title em { color: var(--accent); font-style: italic; }
-    .section-sub {
-      font-family: var(--font-body); font-size: var(--text-base);
-      color: var(--muted); max-width: 580px; margin-bottom: 52px; font-weight: 300;
-    }
+/* FAQ */
+.faq-list{max-width:700px;margin:48px auto 0}
+.faq-item{border-bottom:1px solid var(--white-10)}
+.faq-question{width:100%;background:none;border:none;color:var(--white-90);font-family:var(--font-heading);font-size:var(--text-lg);font-weight:600;padding:24px 0;text-align:left;cursor:pointer;display:flex;justify-content:space-between;align-items:center}
+.faq-question svg{width:20px;height:20px;fill:var(--accent);transition:transform .3s;flex-shrink:0}
+.faq-question[aria-expanded="true"] svg{transform:rotate(45deg)}
+.faq-answer{max-height:0;overflow:hidden;transition:max-height .4s ease}
+.faq-answer-inner{padding:0 0 24px;color:var(--white-50);line-height:1.8;font-size:var(--text-sm)}
 
-    /* SERVICES */
-    #services { background: var(--dark2); position: relative; overflow: hidden; }
-    #services::before {
-      content: ''; position: absolute; inset: 0;
-      background: url('https://images.pexels.com/photos/3998429/pexels-photo-3998429.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') center/cover no-repeat;
-      opacity: 0.04;
-    }
-    .services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
-    .service-card {
-      background: var(--card); border: 1px solid var(--card-border);
-      border-radius: 8px; padding: 32px 24px; transition: transform 0.2s, border-color 0.2s;
-    }
-    .service-card:hover { transform: translateY(-3px); border-color: rgba(200,162,78,0.35); }
-    .svc-icon {
-      width: 48px; height: 48px; border-radius: 50%;
-      background: rgba(200,162,78,0.1); border: 1px solid rgba(200,162,78,0.2);
-      display: flex; align-items: center; justify-content: center; margin-bottom: 20px;
-    }
-    .svc-icon svg { width: 22px; height: 22px; fill: none; stroke: var(--accent); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
-    .service-card h3 { font-family: var(--font-heading); font-size: var(--text-xl); font-weight: 600; color: var(--white); margin-bottom: 10px; }
-    .service-card p { font-size: var(--text-sm); color: var(--muted); margin-bottom: 14px; font-weight: 300; }
-    .svc-price { font-family: var(--font-body); font-size: var(--text-sm); color: var(--accent); font-weight: 600; }
-    @media (max-width: 768px) { .services-grid { grid-template-columns: 1fr; } }
+/* FOOTER */
+footer{background:var(--bg);border-top:1px solid var(--white-10);padding:60px 5% 30px}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:40px;margin-bottom:40px}
+.footer-brand{font-family:var(--font-heading);font-size:var(--text-2xl);font-weight:700;margin-bottom:12px}
+.footer-brand span{color:var(--accent)}
+.footer-tagline{color:var(--white-50);font-size:var(--text-sm);max-width:300px}
+.footer-heading{font-family:var(--font-heading);font-size:var(--text-sm);font-weight:700;text-transform:uppercase;letter-spacing:.1em;margin-bottom:16px;color:var(--white-70)}
+.footer-links{list-style:none;display:flex;flex-direction:column;gap:10px}
+.footer-links a{color:var(--white-50);font-size:var(--text-sm);transition:color .3s}
+.footer-links a:hover{color:var(--accent)}
+.footer-bottom{text-align:center;padding-top:30px;border-top:1px solid var(--white-10);color:var(--white-30);font-size:var(--text-xs)}
 
-    /* PROCESS */
-    #process { background: var(--dark); position: relative; overflow: hidden; }
-    #process::before {
-      content: ''; position: absolute; inset: 0;
-      background: url('https://images.pexels.com/photos/2076930/pexels-photo-2076930.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') center/cover no-repeat;
-      opacity: 0.03;
-    }
-    .timeline { position: relative; padding-left: 40px; }
-    .timeline-track {
-      position: absolute; left: 15px; top: 0; bottom: 0; width: 2px;
-      background: rgba(200,162,78,0.15);
-    }
-    .timeline-line {
-      position: absolute; left: 15px; top: 0; width: 2px; height: 0;
-      background: var(--accent); transition: height 0.1s linear; z-index: 1;
-    }
-    .timeline-step { position: relative; padding-bottom: 48px; opacity: 0.4; transition: opacity 0.4s; }
-    .timeline-step.active { opacity: 1; }
-    .timeline-step::before {
-      content: ''; position: absolute; left: -33px; top: 4px;
-      width: 12px; height: 12px; border-radius: 50%;
-      border: 2px solid rgba(200,162,78,0.3); background: var(--dark);
-      z-index: 2; transition: border-color 0.3s, background 0.3s;
-    }
-    .timeline-step.active::before { border-color: var(--accent); background: var(--accent); box-shadow: 0 0 12px rgba(200,162,78,0.4); }
-    .timeline-step h3 { font-family: var(--font-heading); font-size: var(--text-xl); font-weight: 600; color: var(--white); margin-bottom: 8px; }
-    .timeline-step p { font-size: var(--text-sm); color: var(--muted); max-width: 500px; font-weight: 300; }
+/* REVEAL */
+.reveal{opacity:0;transform:translateY(30px);transition:opacity .8s,transform .8s}
+.reveal.visible{opacity:1;transform:translateY(0)}
 
-    /* PRICING */
-    #pricing { background: var(--dark3); position: relative; overflow: hidden; }
-    #pricing::before {
-      content: ''; position: absolute; inset: 0;
-      background: url('https://images.pexels.com/photos/3356170/pexels-photo-3356170.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') center/cover no-repeat;
-      opacity: 0.04;
-    }
-    .pricing-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
-    .price-card {
-      background: var(--card); border: 1px solid var(--card-border);
-      border-radius: 8px; padding: 36px 28px; position: relative; transition: transform 0.2s;
-    }
-    .price-card:hover { transform: translateY(-3px); }
-    .price-card.featured { border-color: rgba(200,162,78,0.4); }
-    .price-badge {
-      position: absolute; top: -12px; left: 24px;
-      background: var(--red); color: var(--white);
-      font-family: var(--font-body); font-size: var(--text-xs);
-      font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase;
-      padding: 4px 12px; border-radius: 20px;
-    }
-    .price-card h3 { font-family: var(--font-heading); font-size: var(--text-xl); font-weight: 600; color: var(--white); margin-bottom: 8px; }
-    .price-amt { font-family: var(--font-heading); font-size: var(--text-3xl); font-weight: 700; color: var(--accent); margin-bottom: 4px; }
-    .price-note { font-size: var(--text-xs); color: var(--muted); margin-bottom: 20px; }
-    .price-list { list-style: none; margin-bottom: 24px; }
-    .price-list li {
-      display: flex; align-items: flex-start; gap: 8px;
-      padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,0.05);
-      font-size: var(--text-sm); color: var(--muted); font-weight: 300;
-    }
-    .price-list li::before { content: ''; width: 5px; height: 5px; border-radius: 50%; background: var(--accent); margin-top: 7px; flex-shrink: 0; }
-    @media (max-width: 768px) { .pricing-grid { grid-template-columns: 1fr; } }
-
-    /* REVIEWS */
-    #reviews { background: var(--dark2); position: relative; overflow: hidden; }
-    #reviews::before {
-      content: ''; position: absolute; inset: 0;
-      background: url('https://images.pexels.com/photos/1805600/pexels-photo-1805600.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') center/cover no-repeat;
-      opacity: 0.03;
-    }
-    .reviews-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
-    .review-card {
-      background: var(--card); border: 1px solid var(--card-border);
-      border-radius: 8px; padding: 28px 24px;
-    }
-    .review-stars { color: var(--accent); font-size: var(--text-sm); margin-bottom: 14px; letter-spacing: 2px; }
-    .review-text {
-      font-family: var(--font-heading); font-size: var(--text-base);
-      font-style: italic; color: var(--text); line-height: 1.6; margin-bottom: 18px; font-weight: 400;
-    }
-    .review-author { display: flex; align-items: center; gap: 12px; }
-    .review-avatar { width: 36px; height: 36px; border-radius: 50%; object-fit: cover; }
-    .review-name { font-family: var(--font-body); font-size: var(--text-sm); color: var(--accent); font-weight: 500; }
-    .review-cta {
-      margin-top: 48px; text-align: center; padding: 36px;
-      background: var(--card); border: 1px solid var(--card-border); border-radius: 8px;
-    }
-    .review-cta h3 { font-family: var(--font-heading); font-size: var(--text-2xl); color: var(--white); margin-bottom: 8px; }
-    .review-cta p { color: var(--muted); margin-bottom: 20px; font-size: var(--text-sm); }
-    @media (max-width: 768px) { .reviews-grid { grid-template-columns: 1fr; } }
-
-    /* WHY US */
-    #why { background: var(--dark); position: relative; overflow: hidden; }
-    #why::before {
-      content: ''; position: absolute; inset: 0;
-      background: url('https://images.pexels.com/photos/3993449/pexels-photo-3993449.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') center/cover no-repeat;
-      opacity: 0.04;
-    }
-    .why-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; }
-    .why-item {
-      display: flex; gap: 16px; padding: 24px;
-      background: var(--card); border: 1px solid var(--card-border); border-radius: 8px;
-    }
-    .why-num {
-      font-family: var(--font-heading); font-size: var(--text-2xl);
-      font-weight: 700; color: var(--accent); line-height: 1; flex-shrink: 0; width: 40px;
-    }
-    .why-item h3 { font-family: var(--font-heading); font-size: var(--text-lg); font-weight: 600; color: var(--white); margin-bottom: 6px; }
-    .why-item p { font-size: var(--text-sm); color: var(--muted); font-weight: 300; }
-    @media (max-width: 768px) { .why-grid { grid-template-columns: 1fr; } }
-
-    /* MILITARY */
-    #military { background: var(--dark3); position: relative; overflow: hidden; }
-    #military::before {
-      content: ''; position: absolute; inset: 0;
-      background: url('https://images.pexels.com/photos/7697462/pexels-photo-7697462.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') center/cover no-repeat;
-      opacity: 0.04;
-    }
-    .military-content { text-align: center; max-width: 650px; margin: 0 auto; position: relative; z-index: 1; }
-    .military-content h2 { font-family: var(--font-heading); font-size: clamp(1.8rem, 3vw, var(--text-4xl)); color: var(--white); margin-bottom: 16px; }
-    .military-content h2 em { color: var(--accent); font-style: italic; }
-    .military-content p { color: var(--muted); margin-bottom: 32px; font-weight: 300; }
-    .military-perks { display: flex; gap: 32px; justify-content: center; flex-wrap: wrap; margin-bottom: 36px; }
-    .mil-perk { text-align: center; }
-    .mil-perk strong { display: block; font-family: var(--font-heading); font-size: var(--text-2xl); color: var(--accent); }
-    .mil-perk span { font-size: var(--text-xs); color: var(--muted); letter-spacing: 0.1em; text-transform: uppercase; }
-
-    /* GALLERY */
-    #gallery { background: var(--dark2); position: relative; overflow: hidden; }
-    #gallery::before {
-      content: ''; position: absolute; inset: 0;
-      background: url('https://images.pexels.com/photos/3993451/pexels-photo-3993451.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') center/cover no-repeat;
-      opacity: 0.03;
-    }
-    .gallery-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
-    .gallery-grid img { width: 100%; height: 240px; object-fit: cover; border-radius: 6px; display: block; }
-    @media (max-width: 768px) { .gallery-grid { grid-template-columns: repeat(2, 1fr); } .gallery-grid img { height: 180px; } }
-
-    /* LOCATION */
-    #location { background: var(--dark); position: relative; overflow: hidden; }
-    #location::before {
-      content: ''; position: absolute; inset: 0;
-      background: url('https://images.pexels.com/photos/2040189/pexels-photo-2040189.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') center/cover no-repeat;
-      opacity: 0.04;
-    }
-    .location-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; }
-    .hours-table { width: 100%; border-collapse: collapse; }
-    .hours-table tr { border-bottom: 1px solid rgba(255,255,255,0.06); }
-    .hours-table td { padding: 11px 0; font-family: var(--font-body); font-size: var(--text-sm); }
-    .hours-table td:first-child { color: var(--muted); }
-    .hours-table td:last-child { text-align: right; color: var(--text); }
-    .today-badge {
-      display: inline-block; background: var(--red); color: var(--white);
-      font-size: 0.58rem; font-weight: 700; letter-spacing: 0.1em;
-      text-transform: uppercase; padding: 2px 6px; border-radius: 3px; margin-left: 6px;
-    }
-    .today-row td { color: var(--accent) !important; font-weight: 600; }
-    .map-wrap { border-radius: 8px; overflow: hidden; height: 100%; min-height: 320px; }
-    .map-wrap iframe { width: 100%; height: 100%; border: 0; filter: grayscale(0.4) brightness(0.85); }
-    @media (max-width: 768px) { .location-grid { grid-template-columns: 1fr; } }
-
-    /* BLOG */
-    #blog { background: var(--dark3); position: relative; overflow: hidden; }
-    #blog::before {
-      content: ''; position: absolute; inset: 0;
-      background: url('https://images.pexels.com/photos/3992871/pexels-photo-3992871.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') center/cover no-repeat;
-      opacity: 0.04;
-    }
-    .blog-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
-    .blog-card {
-      background: var(--card); border: 1px solid var(--card-border); border-radius: 8px;
-      padding: 28px 24px;
-    }
-    .blog-tag { font-size: var(--text-xs); color: var(--accent); letter-spacing: 0.12em; text-transform: uppercase; font-weight: 600; margin-bottom: 12px; }
-    .blog-card h3 { font-family: var(--font-heading); font-size: var(--text-lg); font-weight: 600; color: var(--white); margin-bottom: 10px; line-height: 1.3; }
-    .blog-card p { font-size: var(--text-sm); color: var(--muted); font-weight: 300; }
-    @media (max-width: 768px) { .blog-grid { grid-template-columns: 1fr; } }
-
-    /* FAQ */
-    #faq { background: var(--dark); position: relative; overflow: hidden; }
-    #faq::before {
-      content: ''; position: absolute; inset: 0;
-      background: url('https://images.pexels.com/photos/3993467/pexels-photo-3993467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') center/cover no-repeat;
-      opacity: 0.04;
-    }
-    .faq-list { max-width: 700px; }
-    .faq-item { border-bottom: 1px solid rgba(255,255,255,0.06); }
-    .faq-q {
-      width: 100%; padding: 20px 0; background: none; border: none; cursor: pointer;
-      display: flex; justify-content: space-between; align-items: center;
-      font-family: var(--font-heading); font-size: var(--text-lg);
-      font-weight: 500; color: var(--white); text-align: left;
-    }
-    .faq-q::after { content: '+'; font-size: 1.4rem; color: var(--accent); transition: transform 0.2s; }
-    .faq-q.open::after { content: '\2212'; }
-    .faq-a { display: none; padding: 0 0 20px; font-size: var(--text-sm); color: var(--muted); font-weight: 300; line-height: 1.7; }
-    .faq-a.open { display: block; }
-
-    /* CTA BANNER */
-    #cta-banner { background: var(--dark3); padding: 80px 20px; text-align: center; position: relative; overflow: hidden; }
-    #cta-banner::before {
-      content: ''; position: absolute; inset: 0;
-      background: url('https://images.pexels.com/photos/3993444/pexels-photo-3993444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') center/cover no-repeat;
-      opacity: 0.05;
-    }
-    #cta-banner h2 { font-family: var(--font-heading); font-size: clamp(1.8rem, 3.5vw, var(--text-4xl)); color: var(--white); margin-bottom: 12px; position: relative; z-index: 1; }
-    #cta-banner p { color: var(--muted); margin-bottom: 28px; position: relative; z-index: 1; }
-    #cta-banner .cta-phone {
-      font-family: var(--font-heading); font-size: var(--text-3xl); color: var(--accent);
-      text-decoration: none; display: block; margin-bottom: 24px; position: relative; z-index: 1;
-    }
-    .cta-btns { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; position: relative; z-index: 1; }
-
-    /* FOOTER */
-    footer { background: var(--dark4); padding: 64px 20px 24px; }
-    .footer-grid { display: grid; grid-template-columns: 1.5fr 1fr 1fr; gap: 48px; margin-bottom: 48px; }
-    .footer-logo-text { font-family: var(--font-heading); font-size: var(--text-lg); font-weight: 600; color: var(--accent); margin-bottom: 12px; }
-    .footer-desc { font-size: var(--text-sm); color: var(--muted); font-weight: 300; line-height: 1.6; margin-bottom: 16px; }
-    .footer-legal { font-size: var(--text-xs); color: rgba(240,236,228,0.35); line-height: 1.5; }
-    .footer-col h4 { font-family: var(--font-body); font-size: var(--text-xs); font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent); margin-bottom: 18px; }
-    .footer-col a { display: block; color: var(--muted); text-decoration: none; font-size: var(--text-sm); padding: 4px 0; transition: color 0.2s; }
-    .footer-col a:hover { color: var(--accent); }
-    .footer-bottom {
-      border-top: 1px solid rgba(255,255,255,0.06); padding-top: 20px;
-      display: flex; justify-content: space-between; align-items: center;
-      font-size: var(--text-xs); color: rgba(240,236,228,0.3);
-    }
-    @media (max-width: 768px) { .footer-grid { grid-template-columns: 1fr; gap: 32px; } .footer-bottom { flex-direction: column; gap: 8px; } }
-
-    /* MOBILE STICKY */
-    .mobile-sticky {
-      display: none; position: fixed; bottom: 0; left: 0; right: 0;
-      z-index: 90; padding: 10px 16px;
-      background: rgba(17,17,22,0.97); backdrop-filter: blur(8px);
-      border-top: 1px solid var(--card-border);
-    }
-    .mobile-sticky-inner { display: flex; gap: 10px; max-width: 500px; margin: 0 auto; }
-    .ms-btn {
-      flex: 1; padding: 12px; border-radius: 4px; text-decoration: none;
-      font-family: var(--font-body); font-weight: 700; font-size: var(--text-xs);
-      letter-spacing: 0.08em; text-transform: uppercase; text-align: center;
-      transition: background 0.2s; display: block; white-space: normal; max-width: 50%;
-    }
-    .ms-call { background: var(--red); color: var(--white); }
-    .ms-dir { background: transparent; border: 1px solid var(--card-border); color: var(--accent); }
-    @media (max-width: 768px) { .mobile-sticky { display: block; } body { padding-bottom: 70px; } }
-
-    /* POPUPS */
-    .popup-overlay {
-      display: none; position: fixed; inset: 0; z-index: 200;
-      background: rgba(0,0,0,0.7); backdrop-filter: blur(4px);
-      align-items: center; justify-content: center; padding: 20px;
-    }
-    .popup-overlay.show { display: flex; }
-    .popup-box {
-      background: var(--dark2); border: 1px solid var(--card-border);
-      border-radius: 12px; padding: 40px 32px; max-width: 440px; width: 100%;
-      text-align: center; position: relative;
-    }
-    .popup-close {
-      position: absolute; top: 12px; right: 16px; background: none;
-      border: none; color: var(--muted); font-size: 1.4rem; cursor: pointer;
-    }
-    .popup-box h3 { font-family: var(--font-heading); font-size: var(--text-2xl); color: var(--white); margin-bottom: 10px; }
-    .popup-box p { font-size: var(--text-sm); color: var(--muted); margin-bottom: 24px; font-weight: 300; }
-
-    /* RESPONSIVE */
-    @media (max-width: 768px) {
-      .hero { padding: 80px 16px 40px; }
-      section { padding: 60px 16px; }
-
-      #trust { padding: 12px 10px; }
-      .trust-grid { gap: 0; flex-wrap: nowrap; justify-content: space-between; }
-      .trust-item { flex-direction: column; gap: 0; text-align: center; flex: 1; min-width: 0; padding: 0 6px; position: relative; }
-      .trust-item + .trust-item::before { content: ''; position: absolute; left: 0; top: 20%; height: 60%; width: 1px; background: rgba(200,162,78,0.15); }
-      .trust-icon { display: none; }
-      .trust-text { font-size: 0.58rem; line-height: 1.2; color: rgba(255,255,255,0.45); }
-      .trust-text strong { font-size: 0.72rem; font-weight: 600; color: var(--accent); white-space: nowrap; margin-bottom: 1px; }
-    }
-  </style>
+/* MOBILE */
+@media(max-width:768px){
+  .nav-links{display:none;position:absolute;top:100%;left:0;width:100%;background:rgba(10,10,15,.98);flex-direction:column;padding:20px 5%;gap:16px}
+  .nav-links.open{display:flex}
+  .nav-toggle{display:block}
+  .nav-cta{display:none}
+  .about-grid{grid-template-columns:1fr;gap:32px}
+  .services-grid{grid-template-columns:1fr}
+  .barbers-grid{grid-template-columns:1fr}
+  .barber-card-img{height:280px}
+  .reviews-grid{grid-template-columns:1fr}
+  .location-grid{grid-template-columns:1fr}
+  .footer-grid{grid-template-columns:1fr;gap:24px}
+  .reel-card{flex:0 0 240px}
+  .hero-pole{width:26px;height:110px}
+  .hero-pole .barber-pole-cylinder{width:26px;height:110px}
+  .hero-poles-row{gap:16px}
+  .timeline-scissors{width:70px;height:70px}
+  h1{font-size:var(--text-3xl)}
+  h2{font-size:var(--text-2xl)}
+  body{font-size:15px}
+  .section{padding:60px 5%}
+}
+@media(min-width:769px) and (max-width:1024px){
+  .services-grid{grid-template-columns:repeat(2,1fr)}
+  .barbers-grid{grid-template-columns:repeat(2,1fr)}
+  .reviews-grid{grid-template-columns:repeat(2,1fr)}
+}
+</style>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":["BarberShop","LocalBusiness"],
+  "name":"Towne Barber Shop",
+  "telephone":"(540) 657-4621",
+  "url":"https://kalnyesgrowth.github.io/towne-barber-shop/",
+  "address":{"@type":"PostalAddress","streetAddress":"475 Town Ctr Blvd #111","addressLocality":"Stafford","addressRegion":"VA","postalCode":"22554","addressCountry":"US"},
+  "geo":{"@type":"GeoCoordinates","latitude":38.4623262,"longitude":-77.4028048},
+  "aggregateRating":{"@type":"AggregateRating","ratingValue":"4.4","reviewCount":"112"},
+  "openingHoursSpecification":[
+    {"@type":"OpeningHoursSpecification","dayOfWeek":"Monday","opens":"08:00","closes":"19:00"},
+    {"@type":"OpeningHoursSpecification","dayOfWeek":"Tuesday","opens":"08:00","closes":"19:00"},
+    {"@type":"OpeningHoursSpecification","dayOfWeek":"Wednesday","opens":"09:00","closes":"19:00"},
+    {"@type":"OpeningHoursSpecification","dayOfWeek":"Thursday","opens":"09:00","closes":"19:00"},
+    {"@type":"OpeningHoursSpecification","dayOfWeek":"Friday","opens":"09:00","closes":"19:00"},
+    {"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"08:00","closes":"18:00"},
+    {"@type":"OpeningHoursSpecification","dayOfWeek":"Sunday","opens":"09:00","closes":"19:00"}
+  ],
+  "priceRange":"$"
+}
+</script>
 </head>
 <body>
 
-  <!-- NAV -->
-  <nav>
-    <a class="nav-logo" href="#">Towne Barber Shop<span>Stafford, VA</span></a>
-    <ul class="nav-links">
-      <li><a href="#services">Services</a></li>
-      <li><a href="#pricing">Pricing</a></li>
-      <li><a href="#reviews">Reviews</a></li>
-      <li><a href="#gallery">Gallery</a></li>
-      <li><a href="#location">Hours</a></li>
-      <li><a href="tel:5406574621" class="nav-cta">Call Now</a></li>
-    </ul>
-    <button class="hamburger" id="hamburger-btn" aria-label="Open menu" onclick="toggleMenu()">
-      <span></span><span></span><span></span>
-    </button>
-  </nav>
-  <nav id="mobile-menu" aria-label="Mobile navigation">
-    <a href="#services" onclick="closeMenu()">Services</a>
-    <a href="#pricing" onclick="closeMenu()">Pricing</a>
-    <a href="#reviews" onclick="closeMenu()">Reviews</a>
-    <a href="#gallery" onclick="closeMenu()">Gallery</a>
-    <a href="#location" onclick="closeMenu()">Hours &amp; Location</a>
-    <a href="tel:5406574621" class="nav-cta">Call (540) 657-4621</a>
-  </nav>
+<!-- NAV -->
+<nav id="navbar">
+  <a href="#" class="nav-logo">
+    <div class="barber-pole nav-pole"><div class="barber-pole-cylinder"><div class="barber-pole-stripes"></div><div class="barber-pole-cap barber-pole-cap-top"></div><div class="barber-pole-cap barber-pole-cap-bottom"></div><div class="barber-pole-shine"></div></div></div>
+    <span style="color:var(--white)">Towne</span><span>Barber Shop</span>
+  </a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#services">Services</a></li>
+    <li><a href="#barbers">Barbers</a></li>
+    <li><a href="#process">Process</a></li>
+    <li><a href="#reels">Reels</a></li>
+    <li><a href="#reviews">Reviews</a></li>
+    <li><a href="#location">Hours</a></li>
+  </ul>
+  <a href="tel:5406574621" class="nav-cta">Call Now</a>
+  <button class="nav-toggle" id="navToggle" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
 
-  <!-- HERO -->
-  <section class="hero">
-    <div class="hero-video-wrap" aria-hidden="true">
-      <canvas id="heroCanvas"></canvas>
-      <video id="heroVideo" src="hero.mp4" muted autoplay loop playsinline webkit-playsinline preload="auto" style="position:absolute;width:1px;height:1px;opacity:0;pointer-events:none"></video>
-    </div>
-    <div class="hero-content">
-      <div class="hero-badge">Stafford VA's Neighborhood Barber Shop</div>
-      <h1>Towne <em>Barber Shop</em></h1>
-      <p class="hero-sub">Classic haircuts, hot towel shaves, military cuts, and old-school service at Towne Center. Walk-ins welcome, every day of the week.</p>
-      <div class="hero-btns">
-        <a href="tel:5406574621" class="btn-ghost">Call (540) 657-4621</a>
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero-video-wrap">
+    <canvas id="heroCanvas"></canvas>
+    <video id="heroVideo" src="hero.mp4" muted autoplay loop playsinline webkit-playsinline preload="auto" style="position:absolute;width:1px;height:1px;opacity:0;pointer-events:none"></video>
+  </div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="hero-badge">Stafford, VA</div>
+    <div class="hero-poles-row">
+      <div class="hero-pole-wrap hero-pole-glow">
+        <div class="barber-pole hero-pole"><div class="barber-pole-cylinder"><div class="barber-pole-stripes"></div><div class="barber-pole-cap barber-pole-cap-top"></div><div class="barber-pole-cap barber-pole-cap-bottom"></div><div class="barber-pole-shine"></div></div></div>
       </div>
     </div>
-  </section>
+    <p class="hero-desc">Classic haircuts, hot towel shaves, and old-school service at Towne Center. Walk-ins welcome, every day of the week.</p>
+    <a href="tel:5406574621" class="hero-cta">Call (540) 657-4621</a>
+  </div>
+  <div class="hero-scroll">
+    <svg viewBox="0 0 24 24"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+    Scroll
+  </div>
+</section>
 
-  <!-- MARQUEE -->
-  <div class="marquee-wrap" aria-hidden="true">
-    <div class="marquee-track">
-      <div class="marquee-item"><span class="marquee-dot"></span>Classic Haircuts</div>
-      <div class="marquee-item"><span class="marquee-dot"></span>Hot Towel Shaves</div>
-      <div class="marquee-item"><span class="marquee-dot"></span>Military Cuts</div>
-      <div class="marquee-item"><span class="marquee-dot"></span>Skin Fades</div>
-      <div class="marquee-item"><span class="marquee-dot"></span>Beard Trims</div>
-      <div class="marquee-item"><span class="marquee-dot"></span>Kids Haircuts</div>
-      <div class="marquee-item"><span class="marquee-dot"></span>Neck Shaves</div>
-      <div class="marquee-item"><span class="marquee-dot"></span>Back Massage</div>
-      <div class="marquee-item"><span class="marquee-dot"></span>Senior Cuts</div>
-      <div class="marquee-item"><span class="marquee-dot"></span>Walk-Ins Welcome</div>
-      <div class="marquee-item"><span class="marquee-dot"></span>Classic Haircuts</div>
-      <div class="marquee-item"><span class="marquee-dot"></span>Hot Towel Shaves</div>
-      <div class="marquee-item"><span class="marquee-dot"></span>Military Cuts</div>
-      <div class="marquee-item"><span class="marquee-dot"></span>Skin Fades</div>
-      <div class="marquee-item"><span class="marquee-dot"></span>Beard Trims</div>
-      <div class="marquee-item"><span class="marquee-dot"></span>Kids Haircuts</div>
-      <div class="marquee-item"><span class="marquee-dot"></span>Neck Shaves</div>
-      <div class="marquee-item"><span class="marquee-dot"></span>Back Massage</div>
-      <div class="marquee-item"><span class="marquee-dot"></span>Senior Cuts</div>
-      <div class="marquee-item"><span class="marquee-dot"></span>Walk-Ins Welcome</div>
+<!-- ABOUT -->
+<section class="section" id="about">
+  <div class="about-grid">
+    <div class="about-img reveal">
+      <img src="https://images.pexels.com/photos/1813272/pexels-photo-1813272.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Inside Towne Barber Shop" loading="lazy">
+    </div>
+    <div class="about-text reveal">
+      <div class="section-label">Our Story</div>
+      <h2 class="section-title">More than a haircut</h2>
+      <p>At <strong>Towne Barber Shop</strong>, every haircut comes with the full treatment. Hot towel, straight razor neck shave, warm shaving lotion, and a back massage. No upsells, no extras. That is just how we do things.</p>
+      <p>Located inside <strong>Towne Center At Aquia</strong>, we serve families, professionals, and military personnel from nearby Quantico. Our barbers remember your name, your cut, and your preferences. Clients keep coming back for years because the service never changes.</p>
+      <p>With a <strong>4.4-star rating</strong> and over 112 verified Google reviews, our work speaks for itself. Walk in any day of the week and see for yourself.</p>
     </div>
   </div>
+</section>
 
-  <!-- TRUST -->
-  <section id="trust">
-    <div class="container">
-      <div class="trust-grid">
-        <div class="trust-item">
-          <div class="trust-icon"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
-          <div class="trust-text"><strong>4.4 Star Rating</strong>112+ verified reviews</div>
-        </div>
-        <div class="trust-item">
-          <div class="trust-icon"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
-          <div class="trust-text"><strong>Licensed Barbers</strong>Experienced professionals</div>
-        </div>
-        <div class="trust-item">
-          <div class="trust-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
-          <div class="trust-text"><strong>Open 7 Days</strong>Walk-ins always welcome</div>
-        </div>
-        <div class="trust-item">
-          <div class="trust-icon"><svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div>
-          <div class="trust-text"><strong>Family Friendly</strong>Great with kids of all ages</div>
-        </div>
+<!-- SERVICES -->
+<section class="section" id="services" style="background:var(--bg-2)">
+  <div class="section-center">
+    <div class="section-label reveal">Services</div>
+    <h2 class="section-title reveal">Classic barber services</h2>
+    <p class="section-desc reveal">Every cut includes hot towel, neck shave, and back massage. No hidden fees.</p>
+  </div>
+  <div class="services-grid">
+    <div class="service-card reveal">
+      <div class="service-card-img"><img src="https://images.pexels.com/photos/1570807/pexels-photo-1570807.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Classic Haircut" loading="lazy"></div>
+      <div class="service-card-body">
+        <div class="service-card-name">Classic Haircut</div>
+        <div class="service-card-desc">Traditional scissor and clipper cuts tailored to your style. Includes hot towel, neck shave, and back massage.</div>
+        <div class="service-card-price">From $20</div>
       </div>
     </div>
-  </section>
-
-
-  <!-- SERVICES -->
-  <section id="services">
-    <div class="container">
-      <p class="section-tag">What We Do</p>
-      <h2 class="section-title">Classic Barber <em>Services</em></h2>
-      <p class="section-sub">Every cut comes with the full treatment: hot towel, neck shave, and a back massage. No rush, no shortcuts.</p>
-      <div class="services-grid">
-        <div class="service-card">
-          <div class="svc-icon"><svg viewBox="0 0 24 24"><path d="M6 3v18"/><path d="M18 3v18"/><path d="M6 9h12"/><path d="M6 15h12"/></svg></div>
-          <h3>Classic Haircut</h3>
-          <p>Traditional scissor and clipper cuts tailored to your style. Includes hot towel, neck shave, and back massage.</p>
-          <span class="svc-price">From $20</span>
-        </div>
-        <div class="service-card">
-          <div class="svc-icon"><svg viewBox="0 0 24 24"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg></div>
-          <h3>Hot Towel Shave</h3>
-          <p>Straight razor shave with warm shaving lotion, steamy hot towels, and precision detail work around the edges.</p>
-          <span class="svc-price">From $25</span>
-        </div>
-        <div class="service-card">
-          <div class="svc-icon"><svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div>
-          <h3>Military Cut</h3>
-          <p>High and tight, regulation, or skin fades done right. We know the standards and cut to spec. Popular with Quantico personnel.</p>
-          <span class="svc-price">From $18</span>
-        </div>
-        <div class="service-card">
-          <div class="svc-icon"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg></div>
-          <h3>Kids Haircut</h3>
-          <p>Patient, fun, and distraction-friendly. Toys available, cartoons on screen. Your child leaves looking sharp and smiling.</p>
-          <span class="svc-price">From $15</span>
-        </div>
-        <div class="service-card">
-          <div class="svc-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg></div>
-          <h3>Beard Trim</h3>
-          <p>Shape-up, line-up, or full beard grooming. Clean edges, even length, and a professional finish every time.</p>
-          <span class="svc-price">From $12</span>
-        </div>
-        <div class="service-card">
-          <div class="svc-icon"><svg viewBox="0 0 24 24"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="M12 6v6l4 2"/></svg></div>
-          <h3>Senior Cut</h3>
-          <p>Discounted cuts for seniors, same premium service. Full treatment included: hot towel, shave, and massage.</p>
-          <span class="svc-price">From $15</span>
-        </div>
+    <div class="service-card reveal">
+      <div class="service-card-img"><img src="https://images.pexels.com/photos/3998414/pexels-photo-3998414.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Hot Towel Shave" loading="lazy"></div>
+      <div class="service-card-body">
+        <div class="service-card-name">Hot Towel Shave</div>
+        <div class="service-card-desc">Straight razor shave with warm shaving lotion, steamy hot towels, and precision detail work around the edges.</div>
+        <div class="service-card-price">From $25</div>
       </div>
     </div>
-  </section>
-
-  <!-- PROCESS -->
-  <section id="process">
-    <div class="container">
-      <p class="section-tag">Your Visit</p>
-      <h2 class="section-title">How It <em>Works</em></h2>
-      <p class="section-sub">Walk in, sit down, walk out looking sharp. No appointments needed.</p>
-      <div class="timeline" id="timeline">
-        <div class="timeline-track"></div>
-        <div class="timeline-line" id="timeline-line"></div>
-        <div class="timeline-step">
-          <h3>Walk In</h3>
-          <p>No appointment needed. Walk into Towne Center At Aquia, Suite 111. Grab a seat and you will be up in no time.</p>
-        </div>
-        <div class="timeline-step">
-          <h3>Consultation</h3>
-          <p>Tell your barber what you want, or show a picture. They will assess your hair and recommend the best approach.</p>
-        </div>
-        <div class="timeline-step">
-          <h3>The Cut</h3>
-          <p>Precision cutting with clippers and scissors. Your barber takes the time to get every detail right.</p>
-        </div>
-        <div class="timeline-step">
-          <h3>The Treatment</h3>
-          <p>Hot towel on the face and neck. Warm shaving lotion. Straight razor clean-up around the edges. Back and neck massage.</p>
-        </div>
-        <div class="timeline-step">
-          <h3>Walk Out Sharp</h3>
-          <p>Final check in the mirror, dust-off, and you are out the door feeling like a million bucks. See you next time.</p>
-        </div>
+    <div class="service-card reveal">
+      <div class="service-card-img"><img src="https://images.pexels.com/photos/7697462/pexels-photo-7697462.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Military Cut" loading="lazy"></div>
+      <div class="service-card-body">
+        <div class="service-card-name">Military Cut</div>
+        <div class="service-card-desc">High and tight, regulation, or skin fades done right. We know the standards and cut to spec. Popular with Quantico personnel.</div>
+        <div class="service-card-price">From $18</div>
       </div>
     </div>
-  </section>
-
-  <!-- PRICING -->
-  <section id="pricing">
-    <div class="container">
-      <p class="section-tag">Fair Prices</p>
-      <h2 class="section-title">Honest <em>Pricing</em></h2>
-      <p class="section-sub">No hidden fees. Every cut includes hot towel, neck shave, and back massage at no extra charge.</p>
-      <div class="pricing-grid">
-        <div class="price-card">
-          <h3>Standard Cuts</h3>
-          <div class="price-amt">$18+</div>
-          <div class="price-note">Starting price</div>
-          <ul class="price-list">
-            <li>Classic Haircut: $20</li>
-            <li>Military / Regulation Cut: $18</li>
-            <li>Senior Haircut: $15</li>
-            <li>Kids Haircut (12 &amp; under): $15</li>
-          </ul>
-          <a href="tel:5406574621" class="btn-ghost" style="width:100%;text-align:center;padding:10px;font-size:var(--text-xs);">Walk In or Call</a>
-        </div>
-        <div class="price-card featured">
-          <div class="price-badge">Most Popular</div>
-          <h3>The Full Treatment</h3>
-          <div class="price-amt">$20</div>
-          <div class="price-note">Complete experience</div>
-          <ul class="price-list">
-            <li>Precision Haircut</li>
-            <li>Hot Towel Treatment</li>
-            <li>Straight Razor Neck Shave</li>
-            <li>Warm Shaving Lotion</li>
-            <li>Back &amp; Neck Massage</li>
-          </ul>
-          <a href="tel:5406574621" class="btn-primary" style="width:100%;text-align:center;padding:10px;font-size:var(--text-xs);">Call Now</a>
-        </div>
-        <div class="price-card">
-          <h3>Grooming Add-Ons</h3>
-          <div class="price-amt">$12+</div>
-          <div class="price-note">A la carte</div>
-          <ul class="price-list">
-            <li>Hot Towel Shave: $25</li>
-            <li>Beard Trim &amp; Shape: $12</li>
-            <li>Skin Fade Upgrade: $22</li>
-            <li>Eyebrow Cleanup: $8</li>
-          </ul>
-          <a href="tel:5406574621" class="btn-ghost" style="width:100%;text-align:center;padding:10px;font-size:var(--text-xs);">Walk In or Call</a>
-        </div>
+    <div class="service-card reveal">
+      <div class="service-card-img"><img src="https://images.pexels.com/photos/3993449/pexels-photo-3993449.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Kids Haircut" loading="lazy"></div>
+      <div class="service-card-body">
+        <div class="service-card-name">Kids Haircut</div>
+        <div class="service-card-desc">Patient, fun, and distraction-friendly. Toys available, cartoons on screen. Your child leaves looking sharp and smiling.</div>
+        <div class="service-card-price">From $15</div>
       </div>
     </div>
-  </section>
-
-  <!-- REVIEWS -->
-  <section id="reviews">
-    <div class="container">
-      <p class="section-tag">What Clients Say</p>
-      <h2 class="section-title">112 Reviews. <em>4.4 Stars.</em></h2>
-      <div style="display:flex;align-items:center;gap:10px;margin-bottom:40px;">
-        <span style="color:var(--accent);font-size:var(--text-lg);">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
-        <span style="font-weight:700;color:var(--white);font-size:var(--text-sm);">4.4 out of 5</span>
-        <span style="color:var(--muted);font-size:var(--text-sm);">based on 112 verified reviews</span>
-      </div>
-      <div class="reviews-grid">
-        <div class="review-card">
-          <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-          <p class="review-text">"Just Absolutely Amazing experience. No Shave, no hot towel, no head and shoulders massage at my old place. Mia did my first cut here for $20. My new Barber Shop. They will not disappoint."</p>
-          <div class="review-author">
-            <img class="review-avatar" src="https://lh3.googleusercontent.com/a/ACg8ocIsekgkrkLol7LpihXhCUjy3lMeF6GvVfibzi4_xlx9D-RpatM=w72-h72-p-rp-mo-br100" alt="John H." loading="lazy">
-            <span class="review-name">John H.</span>
-          </div>
-        </div>
-        <div class="review-card">
-          <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-          <p class="review-text">"Excellent service by the owner and employees. They cut your hair, and you get a nice back massage towards the end. Also, nice warm shaving lotion and a nice warm towel. You feel like a million bucks."</p>
-          <div class="review-author">
-            <img class="review-avatar" src="https://lh3.googleusercontent.com/a-/ALV-UjVy1rNAekIyLoWOGQOUmSq1xKh4i4Cdzv8a-qYRs9DFBkw5IOrd=w72-h72-p-rp-mo-ba12-br100" alt="Billy S." loading="lazy">
-            <span class="review-name">Billy S.</span>
-          </div>
-        </div>
-        <div class="review-card">
-          <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-          <p class="review-text">"I took my 3-year-old son there. They had fun toys for him. One of the ladies even used her phone to turn on a cartoon. She was so sweet with him like he was her own grandson."</p>
-          <div class="review-author">
-            <img class="review-avatar" src="https://lh3.googleusercontent.com/a-/ALV-UjVrvybl6fuR5Awamgs6YsIBuP_MM879DawU5esKSn3YoLI-jldr=w72-h72-p-rp-mo-ba12-br100" alt="Sarah W." loading="lazy">
-            <span class="review-name">Sarah W.</span>
-          </div>
-        </div>
-        <div class="review-card">
-          <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-          <p class="review-text">"Probably the best haircut I've ever had. Great quality, hot shave, hot towel, electric massage, and even scratchies! All this for less than you'd pay at a better known franchise."</p>
-          <div class="review-author">
-            <img class="review-avatar" src="https://lh3.googleusercontent.com/a/ACg8ocJeJ_Rq-iNLDh8DlqCSpvQXPZeFjnNXHwoejfP1Qhve_lZSDg=w72-h72-p-rp-mo-br100" alt="Nate S." loading="lazy">
-            <span class="review-name">Nate S.</span>
-          </div>
-        </div>
-        <div class="review-card">
-          <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-          <p class="review-text">"I love this barber shop! Considerate, talented women who know how to cut men's hair. They specialize in military cuts but they can do anything. They also do very well with children."</p>
-          <div class="review-author">
-            <img class="review-avatar" src="https://lh3.googleusercontent.com/a-/ALV-UjXBq7MslNQ92Syd0TlXOf1851vzjYWmnKRmgaUxHNIYM53VO0M5=w72-h72-p-rp-mo-ba12-br100" alt="Matt H." loading="lazy">
-            <span class="review-name">Matt H.</span>
-          </div>
-        </div>
-        <div class="review-card">
-          <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-          <p class="review-text">"I have been going to this barber for over a decade. She is reliable, and when I go in, she remembers the haircut I need. She is awesome and I take my son to her."</p>
-          <div class="review-author">
-            <img class="review-avatar" src="https://lh3.googleusercontent.com/a-/ALV-UjW0S4OdiKBd88Rgpdloci59-XfIJPUkL6pPQTDk5PaEi8l_G_ic=w72-h72-p-rp-mo-ba12-br100" alt="Thomas C." loading="lazy">
-            <span class="review-name">Thomas C.</span>
-          </div>
-        </div>
-      </div>
-      <div class="review-cta">
-        <h3>Had a Great Cut?</h3>
-        <p>Leave us a Google review and mention this website to get $3 off your next visit.</p>
-        <a href="https://search.google.com/local/writereview?placeid=ChIJi5FTxsLvtokRQIkmnTYXgbE" target="_blank" rel="noopener" class="btn-primary">Leave a Review</a>
+    <div class="service-card reveal">
+      <div class="service-card-img"><img src="https://images.pexels.com/photos/3992875/pexels-photo-3992875.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Beard Trim" loading="lazy"></div>
+      <div class="service-card-body">
+        <div class="service-card-name">Beard Trim</div>
+        <div class="service-card-desc">Shape-up, line-up, or full beard grooming. Clean edges, even length, and a professional finish every time.</div>
+        <div class="service-card-price">From $12</div>
       </div>
     </div>
-  </section>
-
-  <!-- WHY US -->
-  <section id="why">
-    <div class="container">
-      <p class="section-tag">The Difference</p>
-      <h2 class="section-title">Why Clients <em>Stay</em></h2>
-      <p class="section-sub">Stafford has barber shops on every corner. Here is why 112 clients gave us 4.4 stars and keep coming back.</p>
-      <div class="why-grid">
-        <div class="why-item">
-          <div class="why-num">01</div>
-          <div><h3>The Full Treatment, Every Time</h3><p>Hot towel, neck shave, warm lotion, back massage. All included with every haircut. No upsells, no extras.</p></div>
-        </div>
-        <div class="why-item">
-          <div class="why-num">02</div>
-          <div><h3>Military-Grade Precision</h3><p>Minutes from Quantico. We know regulation cuts, skin fades, and high-and-tights inside and out. Cut to spec, every time.</p></div>
-        </div>
-        <div class="why-item">
-          <div class="why-num">03</div>
-          <div><h3>Kid-Friendly Environment</h3><p>Toys, cartoons, and barbers who treat your child like family. Parents come back because their kids actually enjoy the experience.</p></div>
-        </div>
-        <div class="why-item">
-          <div class="why-num">04</div>
-          <div><h3>No Appointment Needed</h3><p>Walk in any day of the week. We are open 7 days. Short wait times and efficient service so you are in and out.</p></div>
-        </div>
-        <div class="why-item">
-          <div class="why-num">05</div>
-          <div><h3>Honest Pricing</h3><p>$20 for a full haircut with all the extras. No franchise markups. Half the price, twice the attention to detail.</p></div>
-        </div>
-        <div class="why-item">
-          <div class="why-num">06</div>
-          <div><h3>Barbers Who Remember You</h3><p>Clients come back for years because we remember their cut, their preferences, and their name. That is old-school service.</p></div>
-        </div>
+    <div class="service-card reveal">
+      <div class="service-card-img"><img src="https://images.pexels.com/photos/3993310/pexels-photo-3993310.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Senior Cut" loading="lazy"></div>
+      <div class="service-card-body">
+        <div class="service-card-name">Senior Cut</div>
+        <div class="service-card-desc">Discounted cuts for seniors, same premium service. Full treatment included: hot towel, neck shave, and massage.</div>
+        <div class="service-card-price">From $15</div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- MILITARY -->
-  <section id="military">
-    <div class="container">
-      <div class="military-content">
-        <p class="section-tag">Serving Those Who Serve</p>
-        <h2>Military &amp; First Responder <em>Discount</em></h2>
-        <p>Active duty, veterans, law enforcement, fire, and EMS. Show your ID and save on every visit. We are proud to serve the Quantico community and beyond.</p>
-        <div class="military-perks">
-          <div class="mil-perk"><strong>$18</strong><span>Military Cuts</span></div>
-          <div class="mil-perk"><strong>$15</strong><span>Senior Military</span></div>
-          <div class="mil-perk"><strong>7</strong><span>Days Open</span></div>
-        </div>
-        <a href="tel:5406574621" class="btn-primary">Call for Details</a>
+<!-- BARBERS -->
+<section class="section bg-section" id="barbers" style="background-image:url('https://images.pexels.com/photos/3993451/pexels-photo-3993451.jpeg?auto=compress&cs=tinysrgb&w=1260')">
+  <div class="section-center">
+    <div class="section-label reveal">Our Team</div>
+    <h2 class="section-title reveal">Meet your barber</h2>
+    <p class="section-desc reveal">Choose the professional who fits your style. Every barber brings their own specialty to the chair.</p>
+  </div>
+  <div class="barbers-grid">
+    <div class="barber-card reveal">
+      <div class="barber-card-img"><img src="https://images.pexels.com/photos/3998429/pexels-photo-3998429.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Mia - Barber" loading="lazy"></div>
+      <div class="barber-card-body">
+        <div class="barber-card-name">Mia</div>
+        <div class="barber-card-role">Lead Barber</div>
+        <div class="barber-card-desc">Clients have trusted Mia for years. She remembers every cut, every preference. Precision fades, classic styles, and great with kids.</div>
+        <a href="tel:5406574621" class="barber-card-cta">Book with me</a>
       </div>
     </div>
-  </section>
-
-  <!-- GALLERY -->
-  <section id="gallery">
-    <div class="container">
-      <p class="section-tag">Our Work</p>
-      <h2 class="section-title">Inside the <em>Shop</em></h2>
-      <p class="section-sub">A look at the cuts, the tools, and the space where it all happens.</p>
-      <div class="gallery-grid">
-        <img src="https://images.pexels.com/photos/1570807/pexels-photo-1570807.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&dpr=1" alt="Barber cutting hair with clippers" loading="lazy">
-        <img src="https://images.pexels.com/photos/3993323/pexels-photo-3993323.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&dpr=1" alt="Professional barber tools and scissors" loading="lazy">
-        <img src="https://images.pexels.com/photos/3993324/pexels-photo-3993324.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&dpr=1" alt="Clean barber shop interior" loading="lazy">
-        <img src="https://images.pexels.com/photos/3993340/pexels-photo-3993340.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&dpr=1" alt="Barber applying hot towel to client" loading="lazy">
-        <img src="https://images.pexels.com/photos/3993310/pexels-photo-3993310.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&dpr=1" alt="Precision beard trim" loading="lazy">
-        <img src="https://images.pexels.com/photos/3993335/pexels-photo-3993335.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&dpr=1" alt="Client in barber chair" loading="lazy">
+    <div class="barber-card reveal">
+      <div class="barber-card-img"><img src="https://images.pexels.com/photos/3998417/pexels-photo-3998417.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Barber 2" loading="lazy"></div>
+      <div class="barber-card-body">
+        <div class="barber-card-name">Jessica</div>
+        <div class="barber-card-role">Senior Barber</div>
+        <div class="barber-card-desc">Specialist in military regulation cuts and skin fades. Minutes from Quantico, she knows the standards inside and out.</div>
+        <a href="tel:5406574621" class="barber-card-cta">Book with me</a>
       </div>
     </div>
-  </section>
+    <div class="barber-card reveal">
+      <div class="barber-card-img"><img src="https://images.pexels.com/photos/7697395/pexels-photo-7697395.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Barber 3" loading="lazy"></div>
+      <div class="barber-card-body">
+        <div class="barber-card-name">Alex</div>
+        <div class="barber-card-role">Barber / Hot Towel Specialist</div>
+        <div class="barber-card-desc">Master of the hot towel shave experience. Warm lather, straight razor precision, and the back massage that keeps clients coming back.</div>
+        <a href="tel:5406574621" class="barber-card-cta">Book with me</a>
+      </div>
+    </div>
+  </div>
+</section>
 
-  <!-- LOCATION -->
-  <section id="location">
-    <div class="container">
-      <p class="section-tag">Find Us</p>
-      <h2 class="section-title">Hours &amp; <em>Location</em></h2>
-      <div class="location-grid">
+<!-- PROCESS -->
+<section class="section bg-section process" id="process">
+  <div class="section-center">
+    <div class="section-label reveal">Your Visit</div>
+    <h2 class="section-title reveal">How it works</h2>
+    <p class="section-desc reveal">Walk in, sit down, walk out looking sharp. No appointments needed.</p>
+  </div>
+  <div class="timeline" id="timeline">
+    <div class="timeline-line"></div>
+    <div class="timeline-progress" id="timelineProgress"></div>
+    <svg class="timeline-scissors" id="timelineScissors" viewBox="0 0 80 100" fill="none">
+      <defs>
+        <linearGradient id="bladeGrad" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0%" stop-color="#E8E8E8"/>
+          <stop offset="40%" stop-color="#F5F5F5"/>
+          <stop offset="100%" stop-color="#CCCCCC"/>
+        </linearGradient>
+      </defs>
+      <g id="bladeLeft">
+        <ellipse cx="18" cy="85" rx="12" ry="9" stroke="#c8a24e" stroke-width="2.5" fill="rgba(200,162,78,.1)"/>
+        <path d="M25 76 L44 45 L44 8" stroke="url(#bladeGrad)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+        <path d="M44 8 L46 5 L42 5 Z" fill="#E0E0E0"/>
+      </g>
+      <g id="bladeRight">
+        <ellipse cx="62" cy="85" rx="12" ry="9" stroke="#c8a24e" stroke-width="2.5" fill="rgba(200,162,78,.1)"/>
+        <path d="M55 76 L36 45 L36 8" stroke="url(#bladeGrad)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+        <path d="M36 8 L38 5 L34 5 Z" fill="#E0E0E0"/>
+      </g>
+      <circle cx="40" cy="45" r="4" fill="#c8a24e" stroke="#a07e35" stroke-width="1.5"/>
+      <circle cx="40" cy="45" r="1.5" fill="#F5F5F5"/>
+    </svg>
+
+    <div class="timeline-step">
+      <div class="timeline-dot">
+        <svg viewBox="0 0 44 44"><circle cx="22" cy="22" r="20" fill="var(--accent-dim)" stroke="var(--accent)" stroke-width="1.5"/><path d="M16 22h12M22 16v12" stroke="var(--accent)" stroke-width="2" stroke-linecap="round"/></svg>
+      </div>
+      <div class="timeline-num">Step 01</div>
+      <div class="timeline-title">Walk In</div>
+      <div class="timeline-desc">No appointment needed. Walk into Towne Center At Aquia, Suite 111. Grab a seat and you will be up in no time.</div>
+    </div>
+    <div class="timeline-step">
+      <div class="timeline-dot">
+        <svg viewBox="0 0 44 44"><circle cx="22" cy="22" r="20" fill="var(--accent-dim)" stroke="var(--accent)" stroke-width="1.5"/><path d="M15 22c0-4 3-7 7-7s7 3 7 7-3 7-7 7" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" fill="none"/></svg>
+      </div>
+      <div class="timeline-num">Step 02</div>
+      <div class="timeline-title">Consultation</div>
+      <div class="timeline-desc">Tell your barber what you want, or show a picture. They will assess your hair and recommend the best approach.</div>
+    </div>
+    <div class="timeline-step">
+      <div class="timeline-dot">
+        <svg viewBox="0 0 44 44"><circle cx="22" cy="22" r="20" fill="var(--accent-dim)" stroke="var(--accent)" stroke-width="1.5"/><path d="M14 18l4 4-4 4M22 18l4 4-4 4" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+      </div>
+      <div class="timeline-num">Step 03</div>
+      <div class="timeline-title">The Cut</div>
+      <div class="timeline-desc">Precision cutting with clippers and scissors. Your barber takes the time to get every detail right.</div>
+    </div>
+    <div class="timeline-step">
+      <div class="timeline-dot">
+        <svg viewBox="0 0 44 44"><circle cx="22" cy="22" r="20" fill="var(--accent-dim)" stroke="var(--accent)" stroke-width="1.5"/><path d="M18 16v4h8v-4M14 20h16v6H14z" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round" fill="none"/><path d="M16 26v2M28 26v2" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round"/></svg>
+      </div>
+      <div class="timeline-num">Step 04</div>
+      <div class="timeline-title">The Treatment</div>
+      <div class="timeline-desc">Hot towel on the face and neck. Warm shaving lotion. Straight razor clean-up around the edges. Back and neck massage.</div>
+    </div>
+    <div class="timeline-step">
+      <div class="timeline-dot">
+        <svg viewBox="0 0 44 44"><circle cx="22" cy="22" r="20" fill="var(--accent-dim)" stroke="var(--accent)" stroke-width="1.5"/><path d="M16 22l4 4 8-8" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+      </div>
+      <div class="timeline-num">Step 05</div>
+      <div class="timeline-title">Walk Out Sharp</div>
+      <div class="timeline-desc">Final check in the mirror, dust-off, and you are out the door feeling like a million bucks. See you next time.</div>
+    </div>
+  </div>
+</section>
+
+<!-- REELS -->
+<section class="section reels-section" id="reels">
+  <div class="section-center">
+    <div class="section-label reveal">Our Work</div>
+    <h2 class="section-title reveal">Latest cuts</h2>
+    <p class="section-desc reveal">See the quality up close. Every cut tells a story.</p>
+  </div>
+  <div class="reels-carousel" id="reelsCarousel">
+    <div class="reel-card">
+      <video src="reel-1.mp4" muted loop playsinline preload="metadata"></video>
+      <div class="reel-card-overlay"><div class="reel-card-handle">Towne Barber Shop</div></div>
+    </div>
+    <div class="reel-card">
+      <video src="reel-2.mp4" muted loop playsinline preload="metadata"></video>
+      <div class="reel-card-overlay"><div class="reel-card-handle">Towne Barber Shop</div></div>
+    </div>
+    <div class="reel-card">
+      <video src="reel-3.mp4" muted loop playsinline preload="metadata"></video>
+      <div class="reel-card-overlay"><div class="reel-card-handle">Towne Barber Shop</div></div>
+    </div>
+    <div class="reel-card">
+      <video src="reel-4.mp4" muted loop playsinline preload="metadata"></video>
+      <div class="reel-card-overlay"><div class="reel-card-handle">Towne Barber Shop</div></div>
+    </div>
+    <div class="reel-card">
+      <video src="reel-5.mp4" muted loop playsinline preload="metadata"></video>
+      <div class="reel-card-overlay"><div class="reel-card-handle">Towne Barber Shop</div></div>
+    </div>
+    <div class="reel-card">
+      <video src="reel-6.mp4" muted loop playsinline preload="metadata"></video>
+      <div class="reel-card-overlay"><div class="reel-card-handle">Towne Barber Shop</div></div>
+    </div>
+  </div>
+  <div class="reels-nav">
+    <button id="reelsPrev" aria-label="Previous"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg></button>
+    <button id="reelsNext" aria-label="Next"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg></button>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section class="section" id="reviews">
+  <div class="section-center">
+    <div class="section-label reveal">Reviews</div>
+    <h2 class="section-title reveal">What our clients say</h2>
+    <p class="section-desc reveal">4.4 stars on Google with over 112 verified reviews.</p>
+  </div>
+  <div class="reviews-grid">
+    <div class="review-card reveal">
+      <div class="review-card-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+      <div class="review-card-text">"Just Absolutely Amazing experience. No Shave, no hot towel, no head and shoulders massage at my old place. Mia did my first cut here for $20. My new Barber Shop. They will not disappoint."</div>
+      <div class="review-card-author">
+        <img class="review-card-avatar" src="https://lh3.googleusercontent.com/a/ACg8ocIsekgkrkLol7LpihXhCUjy3lMeF6GvVfibzi4_xlx9D-RpatM=w72-h72-p-rp-mo-br100" alt="John H." loading="lazy">
         <div>
-          <table class="hours-table" id="hours-table">
-            <tr data-day="1"><td>Monday</td><td>8:00 AM - 7:00 PM</td></tr>
-            <tr data-day="2"><td>Tuesday</td><td>8:00 AM - 7:00 PM</td></tr>
-            <tr data-day="3"><td>Wednesday</td><td>9:00 AM - 7:00 PM</td></tr>
-            <tr data-day="4"><td>Thursday</td><td>9:00 AM - 7:00 PM</td></tr>
-            <tr data-day="5"><td>Friday</td><td>9:00 AM - 7:00 PM</td></tr>
-            <tr data-day="6"><td>Saturday</td><td>8:00 AM - 6:00 PM</td></tr>
-            <tr data-day="0"><td>Sunday</td><td>9:00 AM - 7:00 PM</td></tr>
-          </table>
-          <div style="margin-top:28px;">
-            <p style="color:var(--white);font-weight:600;margin-bottom:4px;">475 Town Ctr Blvd #111</p>
-            <p style="color:var(--muted);font-size:var(--text-sm);">Stafford, VA 22554</p>
-            <p style="color:var(--muted);font-size:var(--text-sm);">Located in Towne Center At Aquia</p>
-            <p style="margin-top:12px;"><a href="tel:5406574621" style="color:var(--accent);text-decoration:none;font-weight:600;">(540) 657-4621</a></p>
-          </div>
-        </div>
-        <div class="map-wrap">
-          <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=-77.4078%2C38.4593%2C-77.3978%2C38.4653&layer=mapnik&marker=38.4623%2C-77.4028"
-            title="Map showing Towne Barber Shop location"
-            aria-label="Map of Towne Barber Shop" loading="lazy"></iframe>
+          <div class="review-card-name">John H.</div>
+          <div class="review-card-source">Google Reviews</div>
         </div>
       </div>
     </div>
-  </section>
-
-  <!-- BLOG -->
-  <section id="blog">
-    <div class="container">
-      <p class="section-tag">Tips</p>
-      <h2 class="section-title">Grooming <em>Insights</em></h2>
-      <p class="section-sub">Practical advice from our barbers. Real knowledge, not filler content.</p>
-      <div class="blog-grid">
-        <article class="blog-card" itemscope itemtype="https://schema.org/Article">
-          <meta itemprop="author" content="Towne Barber Shop">
-          <meta itemprop="publisher" content="Towne Barber Shop">
-          <div class="blog-tag">Haircare</div>
-          <h3 itemprop="headline">How Often Should You Get a Haircut?</h3>
-          <p itemprop="description">For most men, every 3 to 4 weeks keeps a clean look. Military personnel and anyone with a skin fade should come in every 2 weeks to maintain crisp edges. If you are growing it out, 6 weeks is the max before shape is lost. Your barber can set the right schedule based on your hair type and style.</p>
-        </article>
-        <article class="blog-card" itemscope itemtype="https://schema.org/Article">
-          <meta itemprop="author" content="Towne Barber Shop">
-          <meta itemprop="publisher" content="Towne Barber Shop">
-          <div class="blog-tag">Grooming</div>
-          <h3 itemprop="headline">Why a Hot Towel Shave Beats Your Razor at Home</h3>
-          <p itemprop="description">A straight razor glides closer than any multi-blade cartridge. The hot towel opens pores and softens the hair, so the blade cuts clean without irritation. Warm lotion soothes and protects the skin after. The result is smoother skin that lasts days longer than your bathroom mirror routine.</p>
-        </article>
-        <article class="blog-card" itemscope itemtype="https://schema.org/Article">
-          <meta itemprop="author" content="Towne Barber Shop">
-          <meta itemprop="publisher" content="Towne Barber Shop">
-          <div class="blog-tag">Kids</div>
-          <h3 itemprop="headline">First Haircut Tips: Getting Your Child Ready</h3>
-          <p itemprop="description">Bring your child during a quieter time, usually mid-morning on a weekday. Let them watch another kid get a cut first if possible. Bring their favorite toy or tablet. Our barbers are trained to work with fidgety toddlers, and we keep toys and cartoons on hand. Most kids end up loving it.</p>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- FAQ -->
-  <section id="faq">
-    <div class="container">
-      <p class="section-tag">Questions</p>
-      <h2 class="section-title">Frequently <em>Asked</em></h2>
-      <div class="faq-list">
-        <div class="faq-item">
-          <button class="faq-q" onclick="toggleFaq(this)">Do I need an appointment?</button>
-          <div class="faq-a">No. We are a walk-in barber shop. Just come in during business hours and grab a seat. Wait times are usually short, especially on weekday mornings.</div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-q" onclick="toggleFaq(this)">What payment methods do you accept?</button>
-          <div class="faq-a">We accept cash and all major credit/debit cards. Tips are always appreciated but never required.</div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-q" onclick="toggleFaq(this)">Do you cut kids' hair?</button>
-          <div class="faq-a">Absolutely. We have toys and can play cartoons to keep children comfortable. Our barbers are patient and experienced with kids of all ages, from toddlers to teens.</div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-q" onclick="toggleFaq(this)">Do you do military regulation cuts?</button>
-          <div class="faq-a">Yes. We are minutes from Quantico and serve active duty personnel regularly. High and tights, regulations, skin fades, and all standard military styles. We know the requirements.</div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-q" onclick="toggleFaq(this)">Is the hot towel included in every haircut?</button>
-          <div class="faq-a">Yes. Every haircut includes a hot towel treatment, neck shave with warm lotion, and a back/neck massage. No extra charge.</div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-q" onclick="toggleFaq(this)">Where exactly are you located?</button>
-          <div class="faq-a">We are inside Towne Center At Aquia, at 475 Town Center Blvd, Suite 111, Stafford VA 22554. Look for us in the shopping center off Route 1.</div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-q" onclick="toggleFaq(this)">How long does a haircut take?</button>
-          <div class="faq-a">A typical haircut with the full treatment takes about 25 to 35 minutes. We do not rush, but we do not waste your time either.</div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-q" onclick="toggleFaq(this)">Do you offer senior discounts?</button>
-          <div class="faq-a">Yes. Senior haircuts start at $15 and include the full treatment: hot towel, neck shave, and back massage.</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- CTA BANNER -->
-  <section id="cta-banner">
-    <h2>Ready for Your Best Haircut?</h2>
-    <p>Walk in or call ahead. Open 7 days a week at Towne Center.</p>
-    <a href="tel:5406574621" class="cta-phone">(540) 657-4621</a>
-    <div class="cta-btns">
-      <a href="tel:5406574621" class="btn-primary">Call to Visit</a>
-      <a href="https://maps.google.com/?q=475+Town+Ctr+Blvd+%23111+Stafford+VA+22554" target="_blank" rel="noopener" class="btn-ghost">Get Directions</a>
-    </div>
-  </section>
-
-  <!-- FOOTER -->
-  <footer>
-    <div class="container">
-      <div class="footer-grid">
+    <div class="review-card reveal">
+      <div class="review-card-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+      <div class="review-card-text">"Excellent service by the owner and employees. They cut your hair, and you get a nice back massage towards the end. Also, nice warm shaving lotion and a nice warm towel. You feel like a million bucks."</div>
+      <div class="review-card-author">
+        <img class="review-card-avatar" src="https://lh3.googleusercontent.com/a-/ALV-UjVy1rNAekIyLoWOGQOUmSq1xKh4i4Cdzv8a-qYRs9DFBkw5IOrd=w72-h72-p-rp-mo-ba12-br100" alt="Billy S." loading="lazy">
         <div>
-          <div class="footer-logo-text">Towne Barber Shop</div>
-          <p class="footer-desc">Classic haircuts, hot towel shaves, military cuts, and old-school barber service at 475 Town Ctr Blvd #111, Stafford VA 22554. Open 7 days a week. Walk-ins welcome.</p>
-          <p class="footer-legal">This business provides grooming services. Results may vary. All barbers are licensed professionals.</p>
+          <div class="review-card-name">Billy S.</div>
+          <div class="review-card-source">Google Reviews</div>
         </div>
-        <div class="footer-col">
-          <h4>Services</h4>
-          <a href="#services">Classic Haircut</a>
-          <a href="#services">Hot Towel Shave</a>
-          <a href="#services">Military Cut</a>
-          <a href="#services">Kids Haircut</a>
-          <a href="#services">Beard Trim</a>
-          <a href="#services">Senior Cut</a>
+      </div>
+    </div>
+    <div class="review-card reveal">
+      <div class="review-card-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+      <div class="review-card-text">"I have been going to this barber for over a decade. She is reliable, and when I go in, she remembers the haircut I need. She is awesome and I take my son to her."</div>
+      <div class="review-card-author">
+        <img class="review-card-avatar" src="https://lh3.googleusercontent.com/a-/ALV-UjW0S4OdiKBd88Rgpdloci59-XfIJPUkL6pPQTDk5PaEi8l_G_ic=w72-h72-p-rp-mo-ba12-br100" alt="Thomas C." loading="lazy">
+        <div>
+          <div class="review-card-name">Thomas C.</div>
+          <div class="review-card-source">Google Reviews</div>
         </div>
-        <div class="footer-col">
-          <h4>Contact</h4>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEW CTA -->
+<section class="review-cta-section">
+  <h2>Had a Great Cut?</h2>
+  <p>Leave us a Google review and mention this website to get $3 off your next visit.</p>
+  <a href="https://search.google.com/local/writereview?placeid=ChIJi5FTxsLvtokRQIkmnTYXgbE" class="review-cta-btn" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 01-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18A10.96 10.96 0 001 12c0 1.77.42 3.45 1.18 4.93l3.66-2.84z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+    Leave a Review
+  </a>
+</section>
+
+<!-- HOURS & LOCATION -->
+<section class="section" id="location" style="background:var(--bg-2)">
+  <div class="section-center">
+    <div class="section-label reveal">Find Us</div>
+    <h2 class="section-title reveal">Hours and location</h2>
+  </div>
+  <div class="location-grid">
+    <div class="reveal">
+      <h3 style="margin-bottom:8px">Hours</h3>
+      <ul class="hours-list">
+        <li><span class="day">Monday</span><span class="time">8:00 AM - 7:00 PM</span></li>
+        <li><span class="day">Tuesday</span><span class="time">8:00 AM - 7:00 PM</span></li>
+        <li><span class="day">Wednesday</span><span class="time">9:00 AM - 7:00 PM</span></li>
+        <li><span class="day">Thursday</span><span class="time">9:00 AM - 7:00 PM</span></li>
+        <li><span class="day">Friday</span><span class="time">9:00 AM - 7:00 PM</span></li>
+        <li><span class="day">Saturday</span><span class="time">8:00 AM - 6:00 PM</span></li>
+        <li><span class="day">Sunday</span><span class="time">9:00 AM - 7:00 PM</span></li>
+      </ul>
+      <div class="contact-info">
+        <div class="contact-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
           <a href="tel:5406574621">(540) 657-4621</a>
-          <a href="https://maps.google.com/?q=475+Town+Ctr+Blvd+%23111+Stafford+VA+22554" target="_blank" rel="noopener">475 Town Ctr Blvd #111<br>Stafford, VA 22554</a>
+        </div>
+        <div class="contact-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          475 Town Ctr Blvd #111, Stafford, VA 22554
+        </div>
+        <div class="contact-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          Located in Towne Center At Aquia
         </div>
       </div>
-      <div class="footer-bottom">
-        <span>2026 Towne Barber Shop. All rights reserved.</span>
-        <span>Stafford, VA 22554</span>
-      </div>
     </div>
-  </footer>
-
-  <!-- MOBILE STICKY -->
-  <div class="mobile-sticky">
-    <div class="mobile-sticky-inner">
-      <a href="tel:5406574621" class="ms-btn ms-call">Call Now</a>
-      <a href="https://maps.google.com/?q=475+Town+Ctr+Blvd+%23111+Stafford+VA+22554" target="_blank" rel="noopener" class="ms-btn ms-dir">Directions</a>
+    <div class="map-wrap reveal">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3114.5!2d-77.4028048!3d38.4623262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b6efc246539b8b%3A0xb18117369d268940!2sTowne%20Barber%20Shop!5e0!3m2!1sen!2sus!4v1" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
   </div>
+</section>
 
-  <!-- POPUPS -->
-  <div class="popup-overlay" id="popup-welcome">
-    <div class="popup-box">
-      <button class="popup-close" onclick="document.getElementById('popup-welcome').classList.remove('show')">&times;</button>
-      <h3>Welcome to Towne Barber Shop</h3>
-      <p>Walk-ins welcome 7 days a week. Classic cuts with hot towel, neck shave, and back massage included. Call for directions or just stop by.</p>
-      <a href="tel:5406574621" class="btn-primary" onclick="document.getElementById('popup-welcome').classList.remove('show')">Call (540) 657-4621</a>
+<!-- FAQ -->
+<section class="section" id="faq">
+  <div class="section-center">
+    <div class="section-label reveal">Questions</div>
+    <h2 class="section-title reveal">Frequently asked</h2>
+  </div>
+  <div class="faq-list">
+    <div class="faq-item reveal">
+      <button class="faq-question" aria-expanded="false">Do I need an appointment?<svg viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg></button>
+      <div class="faq-answer"><div class="faq-answer-inner">No. We are a walk-in barber shop. Just come in during business hours and grab a seat. Wait times are usually short, especially on weekday mornings.</div></div>
+    </div>
+    <div class="faq-item reveal">
+      <button class="faq-question" aria-expanded="false">What payment methods do you accept?<svg viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg></button>
+      <div class="faq-answer"><div class="faq-answer-inner">We accept cash and all major credit/debit cards. Tips are always appreciated but never required.</div></div>
+    </div>
+    <div class="faq-item reveal">
+      <button class="faq-question" aria-expanded="false">Do you cut kids' hair?<svg viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg></button>
+      <div class="faq-answer"><div class="faq-answer-inner">Absolutely. We have toys and can play cartoons to keep children comfortable. Our barbers are patient and experienced with kids of all ages, from toddlers to teens.</div></div>
+    </div>
+    <div class="faq-item reveal">
+      <button class="faq-question" aria-expanded="false">Do you do military regulation cuts?<svg viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg></button>
+      <div class="faq-answer"><div class="faq-answer-inner">Yes. We are minutes from Quantico and serve active duty personnel regularly. High and tights, regulations, skin fades, and all standard military styles. We know the requirements.</div></div>
+    </div>
+    <div class="faq-item reveal">
+      <button class="faq-question" aria-expanded="false">Is the hot towel included in every haircut?<svg viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg></button>
+      <div class="faq-answer"><div class="faq-answer-inner">Yes. Every haircut includes a hot towel treatment, neck shave with warm lotion, and a back/neck massage. No extra charge.</div></div>
+    </div>
+    <div class="faq-item reveal">
+      <button class="faq-question" aria-expanded="false">Where exactly are you located?<svg viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg></button>
+      <div class="faq-answer"><div class="faq-answer-inner">We are inside Towne Center At Aquia, at 475 Town Center Blvd, Suite 111, Stafford VA 22554. Look for us in the shopping center off Route 1.</div></div>
+    </div>
+    <div class="faq-item reveal">
+      <button class="faq-question" aria-expanded="false">Do you offer military or senior discounts?<svg viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg></button>
+      <div class="faq-answer"><div class="faq-answer-inner">Yes. Military cuts start at $18 and senior haircuts at $15. Both include the full treatment: hot towel, neck shave, and back massage. Show your military ID for the discount.</div></div>
     </div>
   </div>
-  <div class="popup-overlay" id="popup-timed">
-    <div class="popup-box">
-      <button class="popup-close" onclick="document.getElementById('popup-timed').classList.remove('show')">&times;</button>
-      <h3>Mention This Website</h3>
-      <p>Tell us you found us online and get $3 off your next haircut. Walk in anytime, no coupon needed.</p>
-      <a href="tel:5406574621" class="btn-primary" onclick="document.getElementById('popup-timed').classList.remove('show')">Call Now</a>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div>
+      <div class="footer-brand">Towne <span>Barber Shop</span></div>
+      <p class="footer-tagline">Classic haircuts, hot towel shaves, and old-school barber service at Towne Center At Aquia. Open 7 days a week. Walk-ins welcome.</p>
+    </div>
+    <div>
+      <div class="footer-heading">Navigation</div>
+      <ul class="footer-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#barbers">Barbers</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#location">Hours</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="footer-heading">Contact</div>
+      <ul class="footer-links">
+        <li><a href="tel:5406574621">(540) 657-4621</a></li>
+        <li>475 Town Ctr Blvd #111</li>
+        <li>Stafford, VA 22554</li>
+      </ul>
     </div>
   </div>
-  <div class="popup-overlay" id="popup-exit">
-    <div class="popup-box">
-      <button class="popup-close" onclick="document.getElementById('popup-exit').classList.remove('show')">&times;</button>
-      <h3>Before You Go</h3>
-      <p>Open 7 days a week at Towne Center. Walk-ins always welcome. Every haircut includes hot towel, shave, and massage.</p>
-      <a href="tel:5406574621" class="btn-primary" onclick="document.getElementById('popup-exit').classList.remove('show')">Call (540) 657-4621</a>
-    </div>
+  <div class="footer-bottom">
+    &copy; 2026 Towne Barber Shop. All rights reserved. Site by <a href="https://kalnyesgrowth.com" style="color:var(--accent)">KalnyesGrowth</a>
   </div>
+</footer>
 
-  <script>
-    // Mobile menu
-    function toggleMenu() { document.getElementById('mobile-menu').classList.toggle('open'); }
-    function closeMenu() { document.getElementById('mobile-menu').classList.remove('open'); }
+<script>
+/* NAV SCROLL */
+const nav=document.getElementById('navbar');
+const hero=document.getElementById('hero');
+window.addEventListener('scroll',()=>{nav.classList.toggle('scrolled',window.scrollY>hero.offsetHeight-80)},{passive:true});
 
-    // Nav scroll
-    window.addEventListener('scroll', function() {
-      document.querySelector('nav').classList.toggle('scrolled', window.scrollY > 50);
+/* NAV TOGGLE */
+const toggle=document.getElementById('navToggle');
+const links=document.getElementById('navLinks');
+toggle.addEventListener('click',()=>{links.classList.toggle('open');toggle.classList.toggle('active')});
+links.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>links.classList.remove('open')));
+
+/* HERO CANVAS VIDEO */
+const canvas=document.getElementById('heroCanvas');
+const video=document.getElementById('heroVideo');
+const ctx=canvas.getContext('2d');
+function resizeCanvas(){canvas.width=window.innerWidth;canvas.height=window.innerHeight}
+resizeCanvas();
+window.addEventListener('resize',resizeCanvas);
+function drawFrame(){if(!video.paused&&!video.ended){ctx.drawImage(video,0,0,canvas.width,canvas.height);requestAnimationFrame(drawFrame)}}
+video.addEventListener('canplay',()=>{video.play().then(()=>requestAnimationFrame(drawFrame)).catch(()=>{const poster=new Image();poster.src='poster.jpg';poster.onload=()=>ctx.drawImage(poster,0,0,canvas.width,canvas.height)})});
+video.addEventListener('play',()=>requestAnimationFrame(drawFrame));
+
+/* REVEAL ON SCROLL */
+const reveals=document.querySelectorAll('.reveal');
+const revealObs=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');revealObs.unobserve(e.target)}})},{threshold:.15});
+reveals.forEach(r=>revealObs.observe(r));
+
+/* FAQ */
+document.querySelectorAll('.faq-question').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    const expanded=btn.getAttribute('aria-expanded')==='true';
+    document.querySelectorAll('.faq-question').forEach(b=>{b.setAttribute('aria-expanded','false');b.nextElementSibling.style.maxHeight=null});
+    if(!expanded){btn.setAttribute('aria-expanded','true');btn.nextElementSibling.style.maxHeight=btn.nextElementSibling.scrollHeight+'px'}
+  });
+});
+
+/* SCISSORS TIMELINE */
+const timeline=document.getElementById('timeline');
+const timelineProgress=document.getElementById('timelineProgress');
+const scissors=document.getElementById('timelineScissors');
+const bladeLeft=document.getElementById('bladeLeft');
+const bladeRight=document.getElementById('bladeRight');
+const steps=document.querySelectorAll('.timeline-step');
+
+if(timeline&&timelineProgress&&scissors){
+  function scrollHandler(){
+    const r=timeline.getBoundingClientRect();
+    const viewH=window.innerHeight;
+    const progress=Math.max(0,Math.min(1,(viewH-r.top)/(r.height+viewH*.3)));
+    const h=progress*timeline.offsetHeight;
+    timelineProgress.style.height=h+'px';
+    scissors.style.top=h+'px';
+
+    const maxAngle=25;
+    const snipCycle=Math.sin(progress*Math.PI*6);
+    const baseClose=maxAngle*(1-progress);
+    const snipAmount=baseClose*0.4*snipCycle;
+    const leftAngle=baseClose+snipAmount;
+    const rightAngle=-(baseClose+snipAmount);
+    bladeLeft.style.transform='rotate('+leftAngle+'deg)';
+    bladeLeft.style.transformOrigin='40px 45px';
+    bladeRight.style.transform='rotate('+rightAngle+'deg)';
+    bladeRight.style.transformOrigin='40px 45px';
+
+    steps.forEach((step,i)=>{
+      const stepR=step.getBoundingClientRect();
+      if(stepR.top<viewH*.75)step.classList.add('active');
     });
+  }
 
-    // FAQ
-    function toggleFaq(btn) {
-      var a = btn.nextElementSibling;
-      var isOpen = btn.classList.contains('open');
-      document.querySelectorAll('.faq-q').forEach(function(q) { q.classList.remove('open'); q.nextElementSibling.classList.remove('open'); });
-      if (!isOpen) { btn.classList.add('open'); a.classList.add('open'); }
-    }
+  const timelineObs=new IntersectionObserver(entries=>{
+    entries.forEach(entry=>{
+      if(entry.isIntersecting){window.addEventListener('scroll',scrollHandler,{passive:true});scrollHandler()}
+      else{window.removeEventListener('scroll',scrollHandler)}
+    });
+  },{threshold:0});
+  timelineObs.observe(timeline);
+}
 
-    // Today highlight
-    (function() {
-      var day = new Date().getDay();
-      var rows = document.querySelectorAll('#hours-table tr[data-day]');
-      rows.forEach(function(row) {
-        if (parseInt(row.dataset.day) === day) {
-          row.classList.add('today-row');
-          var td = row.querySelector('td');
-          td.innerHTML = td.textContent + '<span class="today-badge">Today</span>';
-        }
-      });
-    })();
+/* REELS CAROUSEL */
+const carousel=document.getElementById('reelsCarousel');
+const reelsPrev=document.getElementById('reelsPrev');
+const reelsNext=document.getElementById('reelsNext');
+if(carousel){
+  reelsPrev.addEventListener('click',()=>carousel.scrollBy({left:-296,behavior:'smooth'}));
+  reelsNext.addEventListener('click',()=>carousel.scrollBy({left:296,behavior:'smooth'}));
+  const reelVideos=carousel.querySelectorAll('.reel-card video');
+  const reelObs=new IntersectionObserver(entries=>{
+    entries.forEach(e=>{
+      if(e.isIntersecting)e.target.play().catch(()=>{});
+      else{e.target.pause();e.target.currentTime=0}
+    });
+  },{threshold:.5,root:null});
+  reelVideos.forEach(v=>reelObs.observe(v));
+}
 
-
-    // Timeline scroll animation
-    (function() {
-      var timeline = document.getElementById('timeline');
-      var line = document.getElementById('timeline-line');
-      var steps = document.querySelectorAll('.timeline-step');
-      if (!timeline || !line || !steps.length) return;
-      function updateTimeline() {
-        var rect = timeline.getBoundingClientRect();
-        var timelineTop = rect.top;
-        var timelineHeight = rect.height;
-        var viewportCenter = window.innerHeight * 0.6;
-        var progress = Math.max(0, Math.min(1, (viewportCenter - timelineTop) / timelineHeight));
-        line.style.height = (progress * 100) + '%';
-        steps.forEach(function(step) {
-          var stepRect = step.getBoundingClientRect();
-          var stepCenter = stepRect.top + stepRect.height / 2;
-          step.classList.toggle('active', stepCenter < viewportCenter + 40);
-        });
-      }
-      window.addEventListener('scroll', updateTimeline, { passive: true });
-      updateTimeline();
-    })();
-
-    // Canvas hero video renderer (mobile-safe)
-    (function(){
-      var video=document.getElementById('heroVideo');
-      var canvas=document.getElementById('heroCanvas');
-      if(!video||!canvas)return;
-      var ctx=canvas.getContext('2d');
-      function resizeCanvas(){canvas.width=window.innerWidth;canvas.height=window.innerHeight}
-      window.addEventListener('resize',resizeCanvas);
-      resizeCanvas();
-      function drawFrame(){if(!video.paused&&!video.ended){ctx.drawImage(video,0,0,canvas.width,canvas.height);requestAnimationFrame(drawFrame)}}
-      video.addEventListener('canplay',function(){video.play().then(function(){requestAnimationFrame(drawFrame)}).catch(function(){var poster=new Image();poster.src='poster.jpg';poster.onload=function(){ctx.drawImage(poster,0,0,canvas.width,canvas.height)}})});
-      video.addEventListener('play',function(){requestAnimationFrame(drawFrame)});
-    })();
-
-    // Popups
-    (function() {
-      var shown = {};
-      setTimeout(function() {
-        if (!shown.welcome) { document.getElementById('popup-welcome').classList.add('show'); shown.welcome = true; }
-      }, 5000);
-      setTimeout(function() {
-        if (!shown.timed) { document.getElementById('popup-timed').classList.add('show'); shown.timed = true; }
-      }, 45000);
-      document.addEventListener('mouseleave', function(e) {
-        if (e.clientY < 5 && !shown.exit) {
-          document.getElementById('popup-exit').classList.add('show');
-          shown.exit = true;
-        }
-      });
-      document.querySelectorAll('.popup-overlay').forEach(function(o) {
-        o.addEventListener('click', function(e) {
-          if (e.target === o) o.classList.remove('show');
-        });
-      });
-    })();
-  </script>
+/* SMOOTH SCROLL */
+document.querySelectorAll('a[href^="#"]').forEach(a=>{
+  a.addEventListener('click',e=>{
+    e.preventDefault();
+    const target=document.querySelector(a.getAttribute('href'));
+    if(target)target.scrollIntoView({behavior:'smooth',block:'start'});
+  });
+});
+</script>
 </body>
 </html>
