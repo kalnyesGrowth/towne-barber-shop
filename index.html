@@ -733,15 +733,23 @@ toggle.addEventListener('click',()=>{links.classList.toggle('open');toggle.class
 links.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>links.classList.remove('open')));
 
 /* HERO CANVAS VIDEO */
-const canvas=document.getElementById('heroCanvas');
-const video=document.getElementById('heroVideo');
-const ctx=canvas.getContext('2d');
+var canvas=document.getElementById('heroCanvas');
+var video=document.getElementById('heroVideo');
+var ctx=canvas.getContext('2d');
+var heroPlaying=false;
 function resizeCanvas(){canvas.width=window.innerWidth;canvas.height=window.innerHeight}
 resizeCanvas();
-window.addEventListener('resize',resizeCanvas);
-function drawFrame(){if(!video.paused&&!video.ended){ctx.drawImage(video,0,0,canvas.width,canvas.height);requestAnimationFrame(drawFrame)}}
-video.addEventListener('canplay',()=>{video.play().then(()=>requestAnimationFrame(drawFrame)).catch(()=>{const poster=new Image();poster.src='poster.jpg';poster.onload=()=>ctx.drawImage(poster,0,0,canvas.width,canvas.height)})});
-video.addEventListener('play',()=>requestAnimationFrame(drawFrame));
+window.addEventListener('resize',function(){resizeCanvas();if(!heroPlaying){var p=new Image();p.src='poster.jpg';p.onload=function(){ctx.drawImage(p,0,0,canvas.width,canvas.height)}}});
+var posterImg=new Image();
+posterImg.src='poster.jpg';
+posterImg.onload=function(){if(!heroPlaying)ctx.drawImage(posterImg,0,0,canvas.width,canvas.height)};
+function drawFrame(){if(!video.paused&&!video.ended){heroPlaying=true;ctx.drawImage(video,0,0,canvas.width,canvas.height);requestAnimationFrame(drawFrame)}}
+function tryPlay(){var p=video.play();if(p&&p.then){p.then(function(){requestAnimationFrame(drawFrame)}).catch(function(){})}}
+video.addEventListener('canplay',tryPlay);
+video.addEventListener('loadeddata',tryPlay);
+video.addEventListener('play',function(){requestAnimationFrame(drawFrame)});
+document.addEventListener('touchstart',function h(){video.load();tryPlay();document.removeEventListener('touchstart',h)},{once:true,passive:true});
+document.addEventListener('scroll',function h(){tryPlay();document.removeEventListener('scroll',h)},{once:true,passive:true});
 
 /* REVEAL ON SCROLL */
 const reveals=document.querySelectorAll('.reveal');
